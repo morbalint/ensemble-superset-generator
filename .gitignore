@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# virtualenv
+scip/
+
+# vscode 
+.vscode/
+
+# large input data
+data/
