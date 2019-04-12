@@ -108,6 +108,7 @@ scip/
 
 # vscode 
 .vscode/
+__pycache__/
 
 # large input data
 data/
