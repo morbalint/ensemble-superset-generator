@@ -11,7 +11,7 @@ Usage:
 * start with `source ./scip/bin/activate`
 * end with `deactive` when done
 * `pip` should point to the virtualenv binary (`./scip/bin/pip`) and thus install everything locally.
-* after installing a package pls. run `pip freeze -l > requirements.txt`
+* after installing a package pls. run `pip freeze -l > requirements.txt`. Probably better to add the actual package manually since pip and virtualenv is full of old unfixed bugs... ( https://bugs.launchpad.net/ubuntu/+source/python-pip/+bug/1635463 )
 
 ## file structure and git
 

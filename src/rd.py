@@ -1,7 +1,5 @@
 import json
 import sys
-from collections import namedtuple
-from typing import NamedTuple
 import numpy as np
 
 class RDist:
