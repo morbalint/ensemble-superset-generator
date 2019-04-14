@@ -1,5 +1,6 @@
 import unittest
 import json
+import numpy as np
 
 class TestJsonLoad(unittest.TestCase):
     
@@ -14,11 +15,38 @@ class TestJsonLoad(unittest.TestCase):
         self.assertIsNotNone(x, 'Should not be None')
         pass
 
-    def test__angle__resolutions(self):
+    def test_angle_resolutions(self):
         x = self.__setup()
         self.assertAlmostEqual(x['phi_resolution'], 5.0, msg='Phi resolution should be 5')
         self.assertAlmostEqual(x['psi_resolution'], 5.0, msg='Psi resolution should be 5')
         pass
+
+    def test_number_of_aa(self):
+        x = self.__setup()
+        self.assertGreaterEqual(len(x['probability']), 20, \
+            'There should be at least 20 amino acids in the probability matrix')
+        self.assertGreaterEqual(len(x['probability']['ALA']), 20, \
+            'There should be at least 2 types of neighbooring amino acids')
+        aa_num = len(x['probability'])
+        for key, val in x['probability'].items():
+            self.assertEqual(len(val),aa_num, 'Neighboor matrix should be square. It is not for '+key)
+
+    def test_probability_lengths(self):
+        x = self.__setup()
+        NX = int(360 / x['phi_resolution'])
+        NY = int(360 / x['psi_resolution'])
+        for neighboors in x['probability'].values():
+            for probability_matrix in neighboors.values():
+                self.assertEqual(len(probability_matrix), NY)
+                for row in probability_matrix:
+                    self.assertEqual(len(row), NX)
+
+    def test_probability_sums(self):
+        x = self.__setup()
+        for key, val in x['probability'].items():
+            for nkey, nval in val.items():
+                self.assertAlmostEqual(np.sum(np.sum(nval)), 1.0, \
+                    msg='Sum of probabilities should be 1. It is not for ' + key + ' and ' + nkey)
 
 if __name__ == '__main__':
     unittest.main()

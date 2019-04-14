@@ -112,3 +112,6 @@ __pycache__/
 
 # large input data
 data/
+
+# drone CLI environment (with personal access tokens)
+drone_cli.env.sh
