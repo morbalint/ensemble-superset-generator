@@ -3,12 +3,13 @@ name: default
 
 steps:
 - name: test
-  image: python
+  image: python:3
   commands:
   - pip install -r requirements.txt
   - pytest
-  trigger:
-    event:
-    - push
-    - rollback
-    - pull_request
+
+trigger:
+  event:
+  - push
+  - rollback
+  - pull_request
