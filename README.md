@@ -1,6 +1,7 @@
 # ensemble-superset-generator
 
 Project for the scientific python course
+[![Build Status](https://github.drone.morasz.hu/api/badges/morbalint/ensemble-superset-generator/status.svg)](https://github.drone.morasz.hu/morbalint/ensemble-superset-generator)
 
 ## Setup steps
 
