@@ -39,6 +39,8 @@ class TestRDist(unittest.TestCase):
         dist = self.__setup()
         self.assertEqual(dist.cumulative_sums[0], 0.0, \
             'the fist element of a matrix of cumulative sums should be 0')
+        self.assertAlmostEqual(dist.cumulative_sums[-1] + dist.probabilities[-1][-1], 1.0,
+            msg='sum of probailities should be 1')
         for i in range(1,len(dist.cumulative_sums)):
             self.assertGreaterEqual(dist.cumulative_sums[i], dist.cumulative_sums[i-1],
                 'Cumulative sums should form a monotonly increasing series! i='+str(i))
