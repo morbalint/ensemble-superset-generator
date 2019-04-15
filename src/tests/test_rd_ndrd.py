@@ -2,7 +2,7 @@ import unittest
 import json
 import numpy as np
 import sys
-import rd
+import src.app.rd as rd
 
 class TestRDMeta(unittest.TestCase):
     def __setup(self):

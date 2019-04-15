@@ -2,7 +2,7 @@ import unittest
 import json
 import numpy as np
 import sys
-from tree_algorithms import ordered_last_search, safe_sum
+from src.app.tree_algorithms import ordered_last_search, safe_sum
 
 class TestSafeSum(unittest.TestCase):
     def test_summing_ones(self):

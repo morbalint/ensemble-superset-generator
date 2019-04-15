@@ -1,7 +1,7 @@
 import json
 import sys
 import numpy as np
-from tree_algorithms import ordered_last_search, safe_sum
+from src.app.tree_algorithms import ordered_last_search, safe_sum
 
 class RDist:
     """discrete 2 dimensional probability distributrion, with extra data precalculated for speed (memory sacrifice)"""
@@ -9,7 +9,13 @@ class RDist:
         self.meta = meta
         self.probabilities = probabilities
         flat_prob = [val for row in probabilities for val in row]
-        self.cumulative_sums = [0.0] + [ safe_sum(flat_prob[:i]) for i in range(1,len(flat_prob)) ]
+        # safer but much slower method
+        # self.cumulative_sums = [0.0] + [ safe_sum(flat_prob[:i]) for i in range(1,len(flat_prob)) ]
+        self.cumulative_sums = [0.0] + np.cumsum(flat_prob).tolist()[:-1]
+        # testing differences. results are less than 1e-25 squared 'error'
+        # step1 = [0.0] + [safe_sum(flat_prob[:i]) for i in range(1, len(flat_prob))]
+        # step2 = np.subtract(step1, self.cumulative_sums)
+        # print(np.dot(step2, step2))
         pass
 
     def draw(self, rnd=None, isDebug=False):
@@ -38,7 +44,6 @@ class TDRD:
         self.meta = meta
         self.distributions = {}
         for key, val in probabilities.items():
-            print('calculating cumulative sums of ' + key)
             self.distributions[key] = RDist(meta, val)
         pass
 
@@ -47,7 +52,6 @@ class NDRD:
         self.meta = meta
         self.distributions = {}
         for key, val in probabilities.items():
-            print('calculating neighboors of ' + key)
             self.distributions[key] = TDRD(meta, val)
 
 def json_test():
