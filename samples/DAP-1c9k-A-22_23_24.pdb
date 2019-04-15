@@ -1,0 +1,13 @@
+REMARK PDB ID 1c9k residue_number 22 chain A residue_name D phi -88.5 psi 35.0 secondary_structure S
+REMARK PDB ID 1c9k residue_number 23 chain A residue_name A phi -61.1 psi 106.4 secondary_structure 
+REMARK PDB ID 1c9k residue_number 24 chain A residue_name P phi -40.8 psi -58.3 secondary_structure S
+ATOM    149  CA  ASP A  22      52.747  22.577  11.791  1.00 33.69           C 
+ATOM    150  C   ASP A  22      52.525  22.620  10.285  1.00100.00           C 
+ATOM    151  O   ASP A  22      53.308  22.118   9.471  1.00 38.95           O 
+ATOM    156  N   ALA A  23      51.396  23.247   9.996  1.00 43.12           N 
+ATOM    157  CA  ALA A  23      50.923  23.451   8.670  1.00 83.18           C 
+ATOM    158  C   ALA A  23      51.966  24.259   8.030  1.00 30.07           C 
+ATOM    159  O   ALA A  23      52.166  25.431   8.340  1.00 41.26           O 
+ATOM    160  CB  ALA A  23      49.554  24.113   8.610  1.00 37.40           C 
+ATOM    161  N   PRO A  24      52.646  23.510   7.191  1.00 93.70           N 
+ATOM    162  CA  PRO A  24      53.742  23.921   6.368  1.00  9.24           C 
