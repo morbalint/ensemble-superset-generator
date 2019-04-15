@@ -6,7 +6,7 @@ steps:
   image: python:3
   commands:
   - pip install -r requirements.txt
-  - pytest
+  - python -m pytest
 
 trigger:
   event:

@@ -1,42 +1,35 @@
 import json
 import sys
 import numpy as np
+from src.app.tree_algorithms import ordered_last_search, safe_sum
 
 class RDist:
     """discrete 2 dimensional probability distributrion, with extra data precalculated for speed (memory sacrifice)"""
     def __init__(self, meta, probabilities):
         self.meta = meta
         self.probabilities = probabilities
-        self.cum_sum = []
-        self.cum_row_sums = []
-        sum = 0.0
-        # TODO: we need better precision here, the cum_sum is off by .00002985118158 (~2e-5)
-        # which is more than comparable to a single probaility (~1e-7)
-        for row in probabilities:
-            row_sum = 0.0
-            cum_row = []
-            self.cum_row_sums.append(sum)
-            for value in row:
-                row_sum += value
-                cum_row.append(sum + row_sum)
-            sum += row_sum
-            self.cum_sum.append(cum_row)
+        flat_prob = [val for row in probabilities for val in row]
+        # safer but much slower method
+        # self.cumulative_sums = [0.0] + [ safe_sum(flat_prob[:i]) for i in range(1,len(flat_prob)) ]
+        self.cumulative_sums = [0.0] + np.cumsum(flat_prob).tolist()[:-1]
+        # testing differences. results are less than 1e-25 squared 'error'
+        # step1 = [0.0] + [safe_sum(flat_prob[:i]) for i in range(1, len(flat_prob))]
+        # step2 = np.subtract(step1, self.cumulative_sums)
+        # print(np.dot(step2, step2))
         pass
 
-    def draw(self, isDebug=False):
+    def draw(self, rnd=None, isDebug=False):
         """Draws a random value from the discrete distribution"""
-        # TODO: how to create binary tree with custom serch algoritm in python ?
-        # WISH: optimize algorithm if we have more time.
-        rnd = np.random.uniform()
-        row_idx = next(idx for idx, val in enumerate(self.cum_row_sums) if val >= rnd) - 1
-        col_idx = next(idx for idx, val in enumerate(self.cum_sum[row_idx]) if val >= rnd) - 1
+        if rnd == None:
+            rnd = np.random.uniform()
+        idx = ordered_last_search(self.cumulative_sums, lambda x: x <= rnd)
+        x = idx % self.meta.NX
+        y = int(idx / self.meta.NX)
         if isDebug:
             print(rnd)
-            print(self.cum_row_sums[row_idx])
-            print(self.cum_row_sums[row_idx+1])
-            print(self.cum_sum[row_idx][col_idx])
-            print(self.cum_sum[row_idx][col_idx+1])
-        return row_idx,col_idx
+            print(self.cumulative_sums[idx])
+            print(self.cumulative_sums[idx+1])
+        return x,y
 
 class RDMeta:
     def __init__(self, phiResolution, psiResolution, isRightNeighboor):
@@ -46,11 +39,11 @@ class RDMeta:
         self.NY = int(360/psiResolution)
         self.isRightNeighboor = isRightNeighboor
 
-class TDRD(RDMeta):
+class TDRD:
     def __init__(self, meta, probabilities):
         self.meta = meta
         self.distributions = {}
-        for key,val in probabilities.items():
+        for key, val in probabilities.items():
             self.distributions[key] = RDist(meta, val)
         pass
 
@@ -58,8 +51,7 @@ class NDRD:
     def __init__(self, meta, probabilities):
         self.meta = meta
         self.distributions = {}
-        for key,val in probabilities.items():
-            # TODO: this is probably wrong
+        for key, val in probabilities.items():
             self.distributions[key] = TDRD(meta, val)
 
 def json_test():
@@ -80,8 +72,8 @@ def TDRD_test():
     TDRD_R_TCBIG = TDRD(meta, data['probability'])
     print(meta.NX)  # test computed property
     ALA = TDRD_R_TCBIG.distributions['ALA']
-    print(ALA.cum_sum[meta.NX-1][meta.NY-1] + ALA.probabilities[meta.NX-1][meta.NY-1]) # cummulative sum should be close to 1
-    print(ALA.draw())  # test draw function
+    print(ALA.cumulative_sums[-1] + ALA.probabilities[meta.NX-1][meta.NY-1]) # cummulative sum should be close to 1
+    print(ALA.draw(isDebug=True))  # test draw function
 
 def NDRD_test():
     data = json.load(open('data/NDRD/NDRD_R_TCBIG.json', 'r', encoding='utf8'))
@@ -89,10 +81,5 @@ def NDRD_test():
     NDRD_R_TCBIG = NDRD(meta, data['probability'])
     print(meta.NX)  # test computed property
     ALA = NDRD_R_TCBIG.distributions['ALA'].distributions['ALA']
-    print(ALA.cum_sum[meta.NX-1][meta.NY-1] + ALA.probabilities[meta.NX-1][meta.NY-1]) # cummulative sum should be close to 1
-    print(ALA.draw())  # test draw function
-
-if __name__ == '__main__':
-    # json_test()
-    TDRD_test()
-    NDRD_test()
+    print(ALA.cumulative_sums[-1] + ALA.probabilities[meta.NX-1][meta.NY-1]) # cummulative sum should be close to 1
+    print(ALA.draw(isDebug=True))  # test draw function

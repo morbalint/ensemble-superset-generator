@@ -27,3 +27,7 @@ defalt folders and what files belong to them (:
 * src: all source code should be under this folder, sub folder structre will be determined on the fly.
 * data: large data files to be ignored.
 * sample: small sample data files which can be shared to test correctness.
+
+## List of stuff to ASK from Zoli
+
+* numerical precision ? currently we have a 5.748208131706178e-09 difference when summing up cummulative probabilities. which is 1 order smaller than the average probability.
