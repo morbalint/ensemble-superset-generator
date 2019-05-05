@@ -30,7 +30,9 @@ defalt folders and what files belong to them (:
 
 ## List of stuff to ASK from Zoli
 
-* numerical precision ? currently we have a 5.748208131706178e-09 difference when summing up cummulative probabilities. which is 1 order smaller than the average probability.
+* numerical precision ? currently we have a 5.748208131706178e-09 difference when summing up cummulative probabilities. which is 1 order smaller than the average probability. Tried to manually sum up probabilities and we still have about the same error. (the difference beetwen numpy.sum and my safe sum is in the serveral order of magnitudes smaller ~1e-13)
+
+* how do we attach amino acids together (?). I tried to reexamine the task and concluded that we need the psi angle from the 'left' amino acid and the phi angle of the 'right' amino acid.
 
 TODO:
 
