@@ -1,0 +1,12 @@
+REMARK PDB ID 1a9x residue_number 368 chain A residue_name A phi -26.6 psi -87.9 secondary_structure T
+REMARK PDB ID 1a9x residue_number 369 chain A residue_name G phi -59.6 psi 8.8 secondary_structure T
+REMARK PDB ID 1a9x residue_number 370 chain A residue_name A phi -79.1 psi 151.3 secondary_structure S
+ATOM   2800  CA  ALA A 368      27.552  32.191  47.186  1.00 56.21           C  
+ATOM   2801  C   ALA A 368      26.030  32.255  47.296  1.00100.00           C  
+ATOM   2802  O   ALA A 368      25.431  33.209  47.802  1.00100.00           O  
+ATOM   2804  N   GLY A 369      25.397  31.209  46.788  1.00 22.94           N  
+ATOM   2805  CA  GLY A 369      23.929  31.179  46.797  1.00 30.18           C  
+ATOM   2806  C   GLY A 369      23.213  31.258  48.141  1.00 27.06           C  
+ATOM   2807  O   GLY A 369      22.001  31.115  48.232  1.00 28.18           O  
+ATOM   2808  N   ALA A 370      23.939  31.527  49.212  1.00 44.96           N  
+ATOM   2809  CA  ALA A 370      23.270  31.572  50.487  1.00 26.18           C  

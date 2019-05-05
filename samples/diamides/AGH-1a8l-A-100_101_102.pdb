@@ -1,0 +1,12 @@
+REMARK PDB ID 1a8l residue_number 100 chain A residue_name A phi -91.2 psi 171.7 secondary_structure  
+REMARK PDB ID 1a8l residue_number 101 chain A residue_name G phi 66.2 psi -151.3 secondary_structure T
+REMARK PDB ID 1a8l residue_number 102 chain A residue_name H phi -71.7 psi 1.1 secondary_structure T
+ATOM    807  CA  ALA A 100      21.229  35.787  34.366  1.00 23.75           C  
+ATOM    808  C   ALA A 100      21.653  36.945  33.477  1.00 23.38           C  
+ATOM    809  O   ALA A 100      20.817  37.625  32.882  1.00 21.48           O  
+ATOM    811  N   GLY A 101      22.961  37.154  33.376  1.00 23.56           N  
+ATOM    812  CA  GLY A 101      23.462  38.251  32.571  1.00 22.57           C  
+ATOM    813  C   GLY A 101      23.029  39.541  33.233  1.00 20.57           C  
+ATOM    814  O   GLY A 101      22.838  39.578  34.446  1.00 22.02           O  
+ATOM    815  N   HIS A 102      22.846  40.594  32.453  1.00 18.68           N  
+ATOM    816  CA  HIS A 102      22.436  41.865  33.023  1.00 18.85           C  

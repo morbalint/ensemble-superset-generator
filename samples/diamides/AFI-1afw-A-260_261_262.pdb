@@ -1,0 +1,19 @@
+REMARK PDB ID 1afw residue_number 260 chain A residue_name A phi -87.3 psi -12.8 secondary_structure S
+REMARK PDB ID 1afw residue_number 261 chain A residue_name F phi 125.1 psi -33.9 secondary_structure  
+REMARK PDB ID 1afw residue_number 262 chain A residue_name I phi 145.5 psi 360.0 secondary_structure  
+ATOM   1794  CA  ALA A 260      68.594   8.124 102.521  1.00 47.48           C  
+ATOM   1795  C   ALA A 260      67.137   8.331 102.890  1.00 46.55           C  
+ATOM   1796  O   ALA A 260      66.609   9.339 102.449  1.00 50.79           O  
+ATOM   1798  N   PHE A 261      66.491   7.433 103.651  1.00 48.95           N  
+ATOM   1799  CA  PHE A 261      65.048   7.515 104.039  1.00 54.21           C  
+ATOM   1800  C   PHE A 261      64.660   7.462 105.512  1.00 65.23           C  
+ATOM   1801  O   PHE A 261      63.664   8.071 105.937  1.00 59.40           O  
+ATOM   1802  CB  PHE A 261      64.216   6.434 103.298  1.00 42.77           C  
+ATOM   1803  CG  PHE A 261      64.396   6.536 101.833  1.00 40.57           C  
+ATOM   1804  CD1 PHE A 261      63.588   7.394 101.105  1.00 38.49           C  
+ATOM   1805  CD2 PHE A 261      65.465   5.867 101.205  1.00 38.00           C  
+ATOM   1806  CE1 PHE A 261      63.818   7.558  99.746  1.00 36.03           C  
+ATOM   1807  CE2 PHE A 261      65.714   5.998  99.856  1.00 36.44           C  
+ATOM   1808  CZ  PHE A 261      64.887   6.857  99.109  1.00 37.45           C  
+ATOM   1809  N   ILE A 262      65.443   6.687 106.255  1.00 77.91           N  
+ATOM   1810  CA  ILE A 262      65.244   6.489 107.677  1.00 88.48           C  

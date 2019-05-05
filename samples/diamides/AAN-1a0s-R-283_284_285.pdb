@@ -1,0 +1,13 @@
+REMARK PDB ID 1a0s residue_number 283 chain R residue_name A phi -72.6 psi 151.9 secondary_structure  
+REMARK PDB ID 1a0s residue_number 284 chain R residue_name A phi -82.9 psi 152.8 secondary_structure  
+REMARK PDB ID 1a0s residue_number 285 chain R residue_name N phi 111.6 psi -9.8 secondary_structure S
+ATOM   8032  CA  ALA R 283     -34.064  29.219 -34.112  1.00 28.45           C  
+ATOM   8033  C   ALA R 283     -33.074  30.070 -33.330  1.00 27.74           C  
+ATOM   8034  O   ALA R 283     -32.035  30.479 -33.864  1.00 28.95           O  
+ATOM   8036  N   ALA R 284     -33.396  30.326 -32.060  1.00 26.02           N  
+ATOM   8037  CA  ALA R 284     -32.545  31.143 -31.184  1.00 22.47           C  
+ATOM   8038  C   ALA R 284     -31.396  30.370 -30.543  1.00 20.23           C  
+ATOM   8039  O   ALA R 284     -31.462  29.151 -30.368  1.00 16.94           O  
+ATOM   8040  CB  ALA R 284     -33.392  31.836 -30.108  1.00 20.90           C  
+ATOM   8041  N   ASN R 285     -30.328  31.097 -30.236  1.00 19.38           N  
+ATOM   8042  CA  ASN R 285     -29.140  30.529 -29.595  1.00 20.94           C  

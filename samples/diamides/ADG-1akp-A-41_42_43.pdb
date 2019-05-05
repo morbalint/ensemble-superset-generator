@@ -1,0 +1,20 @@
+REMARK PDB ID 1akp residue_number 41 chain A residue_name A phi -63.9 psi -42.6 secondary_structure S
+REMARK PDB ID 1akp residue_number 42 chain A residue_name D phi -73.4 psi -21.8 secondary_structure S
+REMARK PDB ID 1akp residue_number 43 chain A residue_name G phi 74.4 psi 24.4 secondary_structure  
+ATOM    509  CA  ALA A  41       0.501 -12.695   9.841  1.00  0.00           C  
+ATOM    510  C   ALA A  41       1.010 -11.601  10.788  1.00  0.00           C  
+ATOM    511  O   ALA A  41       0.268 -11.148  11.644  1.00  0.00           O  
+ATOM    518  N   ASP A  42       2.255 -11.188  10.546  1.00  0.00           N  
+ATOM    519  CA  ASP A  42       2.938 -10.108  11.372  1.00  0.00           C  
+ATOM    520  C   ASP A  42       2.358  -8.698  11.045  1.00  0.00           C  
+ATOM    521  O   ASP A  42       2.477  -7.786  11.853  1.00  0.00           O  
+ATOM    522  CB  ASP A  42       4.470 -10.157  11.105  1.00  0.00           C  
+ATOM    523  CG  ASP A  42       4.791 -10.362   9.621  1.00  0.00           C  
+ATOM    524  OD1 ASP A  42       4.725  -9.385   8.911  1.00  0.00           O  
+ATOM    525  OD2 ASP A  42       5.085 -11.498   9.286  1.00  0.00           O  
+ATOM    526  H   ASP A  42       2.738 -11.604   9.809  1.00  0.00           H  
+ATOM    527  HA  ASP A  42       2.766 -10.301  12.430  1.00  0.00           H  
+ATOM    528  HB2 ASP A  42       4.932  -9.248  11.444  1.00  0.00           H  
+ATOM    529  HB3 ASP A  42       4.894 -10.981  11.660  1.00  0.00           H  
+ATOM    530  N   GLY A  43       1.748  -8.575   9.860  1.00  0.00           N  
+ATOM    531  CA  GLY A  43       1.119  -7.287   9.378  1.00  0.00           C  

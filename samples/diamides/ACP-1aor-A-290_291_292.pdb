@@ -1,0 +1,14 @@
+REMARK PDB ID 1aor residue_number 290 chain A residue_name A phi 58.4 psi 20.1 secondary_structure T
+REMARK PDB ID 1aor residue_number 291 chain A residue_name C phi -93.8 psi 123.3 secondary_structure  
+REMARK PDB ID 1aor residue_number 292 chain A residue_name P phi -87.4 psi -3.1 secondary_structure S
+ATOM   2207  CA  ALA A 290      71.112   8.666  -5.657  1.00 23.08           C  
+ATOM   2208  C   ALA A 290      71.014   7.147  -5.501  1.00 23.11           C  
+ATOM   2209  O   ALA A 290      71.981   6.499  -5.087  1.00 22.04           O  
+ATOM   2211  N   CYS A 291      69.870   6.578  -5.861  1.00 25.35           N  
+ATOM   2212  CA  CYS A 291      69.658   5.142  -5.728  1.00 22.87           C  
+ATOM   2213  C   CYS A 291      69.976   4.339  -6.970  1.00 24.63           C  
+ATOM   2214  O   CYS A 291      69.404   4.584  -8.036  1.00 24.77           O  
+ATOM   2215  CB  CYS A 291      68.218   4.848  -5.340  1.00 19.74           C  
+ATOM   2216  SG  CYS A 291      67.832   3.087  -5.271  1.00 22.41           S  
+ATOM   2217  N   PRO A 292      70.882   3.350  -6.840  1.00 25.16           N  
+ATOM   2218  CA  PRO A 292      71.257   2.507  -7.971  1.00 23.78           C  

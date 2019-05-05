@@ -1,0 +1,12 @@
+REMARK PDB ID 1ahs residue_number 130 chain C residue_name A phi -76.7 psi 132.6 secondary_structure T
+REMARK PDB ID 1ahs residue_number 131 chain C residue_name G phi 119.4 psi -23.6 secondary_structure T
+REMARK PDB ID 1ahs residue_number 132 chain C residue_name A phi -67.8 psi 141.0 secondary_structure  
+ATOM   1928  CA  ALA C 130      39.923  20.223  31.720  1.00 40.59           C  
+ATOM   1929  C   ALA C 130      38.856  20.129  32.804  1.00 42.65           C  
+ATOM   1930  O   ALA C 130      38.025  19.213  32.789  1.00 52.92           O  
+ATOM   1932  N   GLY C 131      38.844  20.997  33.778  1.00 40.61           N  
+ATOM   1933  CA  GLY C 131      37.815  20.766  34.768  1.00 33.29           C  
+ATOM   1934  C   GLY C 131      38.537  20.548  36.048  1.00 32.28           C  
+ATOM   1935  O   GLY C 131      37.994  20.745  37.111  1.00 35.94           O  
+ATOM   1936  N   ALA C 132      39.786  20.132  35.936  1.00 32.26           N  
+ATOM   1937  CA  ALA C 132      40.617  19.941  37.096  1.00 31.06           C  

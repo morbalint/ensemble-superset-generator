@@ -1,0 +1,16 @@
+REMARK PDB ID 1auk residue_number 410 chain A residue_name A phi -76.7 psi -21.4 secondary_structure S
+REMARK PDB ID 1auk residue_number 411 chain A residue_name D phi -75.9 psi 114.5 secondary_structure  
+REMARK PDB ID 1auk residue_number 412 chain A residue_name P phi -66.7 psi -21.1 secondary_structure G
+ATOM   2926  CA  ALA A 410      23.071  19.977  -3.247  1.00 38.13           C  
+ATOM   2927  C   ALA A 410      21.802  20.592  -2.697  1.00 34.39           C  
+ATOM   2928  O   ALA A 410      20.923  19.870  -2.226  1.00 38.62           O  
+ATOM   2930  N   ASP A 411      21.631  21.904  -2.790  1.00 32.22           N  
+ATOM   2931  CA  ASP A 411      20.421  22.554  -2.301  1.00 30.58           C  
+ATOM   2932  C   ASP A 411      19.252  22.343  -3.227  1.00 34.85           C  
+ATOM   2933  O   ASP A 411      19.149  22.907  -4.307  1.00 34.49           O  
+ATOM   2934  CB  ASP A 411      20.802  24.028  -2.119  1.00 33.32           C  
+ATOM   2935  CG  ASP A 411      19.676  24.873  -1.550  1.00 31.62           C  
+ATOM   2936  OD1 ASP A 411      18.577  24.365  -1.263  1.00 28.31           O  
+ATOM   2937  OD2 ASP A 411      19.983  26.089  -1.464  1.00 37.43           O  
+ATOM   2938  N   PRO A 412      18.217  21.623  -2.775  1.00 39.75           N  
+ATOM   2939  CA  PRO A 412      17.060  21.304  -3.563  1.00 38.12           C  

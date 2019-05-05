@@ -1,0 +1,14 @@
+REMARK PDB ID 1a5t residue_number 117 chain A residue_name A phi -57.7 psi -17.8 secondary_structure G
+REMARK PDB ID 1a5t residue_number 118 chain A residue_name A phi -70.6 psi -36.7 secondary_structure G
+REMARK PDB ID 1a5t residue_number 119 chain A residue_name L phi -70.4 psi -10.0 secondary_structure G
+ATOM   1110  CA  ALA A 117      34.198  37.984  55.509  1.00 20.11           C  
+ATOM   1111  C   ALA A 117      35.317  36.985  55.799  1.00 21.08           C  
+ATOM   1112  O   ALA A 117      35.874  36.970  56.899  1.00 22.61           O  
+ATOM   1115  N   ALA A 118      35.632  36.136  54.837  1.00 21.22           N  
+ATOM   1116  CA  ALA A 118      36.677  35.151  55.045  1.00 26.13           C  
+ATOM   1117  C   ALA A 118      38.038  35.827  55.091  1.00 28.93           C  
+ATOM   1118  O   ALA A 118      38.902  35.440  55.873  1.00 34.12           O  
+ATOM   1119  CB  ALA A 118      36.644  34.118  53.930  1.00 28.44           C  
+ATOM   1120  H   ALA A 118      35.196  36.137  53.957  1.00  0.00           H  
+ATOM   1121  N   LEU A 119      38.216  36.859  54.268  1.00 29.37           N  
+ATOM   1122  CA  LEU A 119      39.491  37.576  54.201  1.00 25.40           C  

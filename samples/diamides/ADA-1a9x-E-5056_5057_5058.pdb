@@ -1,0 +1,16 @@
+REMARK PDB ID 1a9x residue_number 5056 chain E residue_name A phi 122.4 psi 165.3 secondary_structure S
+REMARK PDB ID 1a9x residue_number 5057 chain E residue_name D phi 120.8 psi 105.0 secondary_structure  
+REMARK PDB ID 1a9x residue_number 5058 chain E residue_name A phi -63.3 psi -23.3 secondary_structure T
+ATOM  30233  CA  ALA E5056       0.635  95.394   2.696  1.00 29.89           C  
+ATOM  30234  C   ALA E5056       1.877  95.870   3.401  1.00 27.95           C  
+ATOM  30235  O   ALA E5056       2.847  95.136   3.405  1.00 31.72           O  
+ATOM  30237  N   ASP E5057       1.824  97.098   3.971  1.00 38.32           N  
+ATOM  30238  CA  ASP E5057       2.905  97.750   4.727  1.00 41.70           C  
+ATOM  30239  C   ASP E5057       2.389  98.041   6.118  1.00 27.75           C  
+ATOM  30240  O   ASP E5057       1.565  98.939   6.310  1.00 19.32           O  
+ATOM  30241  CB  ASP E5057       3.388  99.091   4.116  1.00 25.50           C  
+ATOM  30242  CG  ASP E5057       4.686  99.585   4.712  1.00 37.05           C  
+ATOM  30243  OD1 ASP E5057       4.971  99.105   5.923  1.00 33.09           O  
+ATOM  30244  OD2 ASP E5057       5.424 100.352   4.115  1.00100.00           O  
+ATOM  30245  N   ALA E5058       2.845  97.243   7.054  1.00 21.30           N  
+ATOM  30246  CA  ALA E5058       2.442  97.367   8.429  1.00 33.68           C  

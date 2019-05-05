@@ -1,0 +1,13 @@
+REMARK PDB ID 1a2o residue_number 142 chain A residue_name A phi -62.1 psi 129.4 secondary_structure  
+REMARK PDB ID 1a2o residue_number 143 chain A residue_name A phi -71.7 psi 152.8 secondary_structure  
+REMARK PDB ID 1a2o residue_number 144 chain A residue_name P phi -74.0 psi 158.0 secondary_structure  
+ATOM   1091  CA  ALA A 142      37.315  78.420  45.314  1.00 12.45           C  
+ATOM   1092  C   ALA A 142      37.202  77.556  44.048  1.00 12.92           C  
+ATOM   1093  O   ALA A 142      36.641  78.036  43.065  1.00  9.85           O  
+ATOM   1095  N   ALA A 143      37.867  76.402  44.090  1.00 13.36           N  
+ATOM   1096  CA  ALA A 143      37.828  75.452  42.982  1.00 12.47           C  
+ATOM   1097  C   ALA A 143      36.418  74.878  43.045  1.00 12.12           C  
+ATOM   1098  O   ALA A 143      35.872  74.832  44.163  1.00 12.34           O  
+ATOM   1099  CB  ALA A 143      38.782  74.305  43.228  1.00 13.68           C  
+ATOM   1100  N   PRO A 144      35.857  74.425  41.944  1.00  9.08           N  
+ATOM   1101  CA  PRO A 144      34.519  73.927  42.019  1.00 11.64           C  

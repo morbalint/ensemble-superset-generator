@@ -1,0 +1,12 @@
+REMARK PDB ID 1aiw residue_number 19 chain A residue_name A phi -69.1 psi -57.5 secondary_structure S
+REMARK PDB ID 1aiw residue_number 20 chain A residue_name G phi -64.0 psi -27.8 secondary_structure S
+REMARK PDB ID 1aiw residue_number 21 chain A residue_name G phi -66.1 psi 142.4 secondary_structure S
+ATOM    146  CA  ALA A  19      11.852   9.669  10.158  1.00  0.00           C  
+ATOM    147  C   ALA A  19      11.899  11.157   9.799  1.00  0.00           C  
+ATOM    148  O   ALA A  19      11.032  11.650   9.085  1.00  0.00           O  
+ATOM    150  N   GLY A  20      12.890  11.884  10.318  1.00  0.00           N  
+ATOM    151  CA  GLY A  20      12.995  13.326  10.132  1.00  0.00           C  
+ATOM    152  C   GLY A  20      13.206  13.779   8.687  1.00  0.00           C  
+ATOM    153  O   GLY A  20      12.847  14.905   8.352  1.00  0.00           O  
+ATOM    154  N   GLY A  21      13.818  12.959   7.830  1.00  0.00           N  
+ATOM    155  CA  GLY A  21      14.054  13.367   6.457  1.00  0.00           C  

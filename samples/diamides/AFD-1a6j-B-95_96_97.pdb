@@ -1,0 +1,19 @@
+REMARK PDB ID 1a6j residue_number 95 chain B residue_name A phi -74.5 psi 135.3 secondary_structure  
+REMARK PDB ID 1a6j residue_number 96 chain B residue_name F phi 134.1 psi 10.0 secondary_structure  
+REMARK PDB ID 1a6j residue_number 97 chain B residue_name D phi 62.9 psi 30.8 secondary_structure  
+ATOM   1887  CA  ALA B  95      23.000  44.003  24.216  1.00 14.20           C  
+ATOM   1888  C   ALA B  95      22.305  42.972  23.343  1.00 16.03           C  
+ATOM   1889  O   ALA B  95      21.087  43.050  23.131  1.00 16.09           O  
+ATOM   1891  N   PHE B  96      23.081  42.007  22.859  1.00 15.14           N  
+ATOM   1892  CA  PHE B  96      22.563  40.993  21.960  1.00 19.15           C  
+ATOM   1893  C   PHE B  96      22.976  39.560  22.293  1.00 23.12           C  
+ATOM   1894  O   PHE B  96      22.736  38.648  21.490  1.00 25.64           O  
+ATOM   1895  CB  PHE B  96      23.041  41.334  20.549  1.00 17.50           C  
+ATOM   1896  CG  PHE B  96      22.082  40.950  19.469  1.00 11.90           C  
+ATOM   1897  CD1 PHE B  96      20.940  41.698  19.249  1.00  8.73           C  
+ATOM   1898  CD2 PHE B  96      22.332  39.852  18.663  1.00 10.90           C  
+ATOM   1899  CE1 PHE B  96      20.060  41.356  18.243  1.00 11.48           C  
+ATOM   1900  CE2 PHE B  96      21.458  39.502  17.656  1.00 11.45           C  
+ATOM   1901  CZ  PHE B  96      20.320  40.254  17.441  1.00 11.69           C  
+ATOM   1902  N   ASP B  97      23.583  39.347  23.461  1.00 24.36           N  
+ATOM   1903  CA  ASP B  97      24.034  38.006  23.858  1.00 23.44           C  

@@ -1,0 +1,16 @@
+REMARK PDB ID 1axi residue_number 163 chain B residue_name A phi -92.6 psi 134.5 secondary_structure S
+REMARK PDB ID 1axi residue_number 164 chain B residue_name D phi -96.0 psi 86.2 secondary_structure  
+REMARK PDB ID 1axi residue_number 165 chain B residue_name I phi -80.6 psi -46.2 secondary_structure T
+ATOM   2327  CA  ALA B 163      51.509  42.099 132.153  1.00 19.73           C  
+ATOM   2328  C   ALA B 163      52.560  41.924 131.066  1.00 21.24           C  
+ATOM   2329  O   ALA B 163      52.332  42.471 129.978  1.00 21.14           O  
+ATOM   2331  N   ASP B 164      53.589  41.094 131.259  1.00 21.04           N  
+ATOM   2332  CA  ASP B 164      54.562  41.010 130.163  1.00 21.68           C  
+ATOM   2333  C   ASP B 164      54.233  39.818 129.275  1.00 20.35           C  
+ATOM   2334  O   ASP B 164      54.837  38.759 129.366  1.00 20.63           O  
+ATOM   2335  CB  ASP B 164      56.033  41.042 130.583  1.00 23.16           C  
+ATOM   2336  CG  ASP B 164      56.928  40.608 129.413  1.00 26.94           C  
+ATOM   2337  OD1 ASP B 164      56.740  41.062 128.244  1.00 25.56           O  
+ATOM   2338  OD2 ASP B 164      57.757  39.690 129.637  1.00 24.21           O  
+ATOM   2339  N   ILE B 165      53.346  40.068 128.319  1.00 18.53           N  
+ATOM   2340  CA  ILE B 165      52.989  39.107 127.302  1.00 22.16           C  

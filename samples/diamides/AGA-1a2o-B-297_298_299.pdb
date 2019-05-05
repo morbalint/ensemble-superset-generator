@@ -1,0 +1,12 @@
+REMARK PDB ID 1a2o residue_number 297 chain B residue_name A phi -65.5 psi 2.4 secondary_structure T
+REMARK PDB ID 1a2o residue_number 298 chain B residue_name G phi 99.3 psi 6.7 secondary_structure T
+REMARK PDB ID 1a2o residue_number 299 chain B residue_name A phi -81.2 psi 143.7 secondary_structure  
+ATOM   4842  CA  ALA B 297      41.697  94.131 -12.066  1.00 22.56           C  
+ATOM   4843  C   ALA B 297      42.672  94.373 -10.920  1.00 22.48           C  
+ATOM   4844  O   ALA B 297      42.826  95.502 -10.465  1.00 22.44           O  
+ATOM   4846  N   GLY B 298      43.366  93.316 -10.506  1.00 21.95           N  
+ATOM   4847  CA  GLY B 298      44.412  93.410  -9.504  1.00 21.61           C  
+ATOM   4848  C   GLY B 298      44.121  93.042  -8.063  1.00 19.21           C  
+ATOM   4849  O   GLY B 298      44.956  93.332  -7.207  1.00 19.68           O  
+ATOM   4850  N   ALA B 299      42.946  92.511  -7.764  1.00 17.52           N  
+ATOM   4851  CA  ALA B 299      42.607  92.149  -6.384  1.00 15.56           C  

@@ -1,0 +1,17 @@
+REMARK PDB ID 1a2o residue_number 214 chain A residue_name A phi -53.5 psi 151.7 secondary_structure  
+REMARK PDB ID 1a2o residue_number 215 chain A residue_name E phi 146.5 psi 137.4 secondary_structure  
+REMARK PDB ID 1a2o residue_number 216 chain A residue_name D phi -41.4 psi 130.4 secondary_structure T
+ATOM   1621  CA  ALA A 214      52.953  58.136  34.731  1.00 18.28           C  
+ATOM   1622  C   ALA A 214      54.257  57.352  34.651  1.00 20.11           C  
+ATOM   1623  O   ALA A 214      55.356  57.875  34.877  1.00 20.50           O  
+ATOM   1625  N   GLU A 215      54.134  56.083  34.281  1.00 20.50           N  
+ATOM   1626  CA  GLU A 215      55.294  55.201  34.128  1.00 20.60           C  
+ATOM   1627  C   GLU A 215      55.072  54.194  33.005  1.00 19.04           C  
+ATOM   1628  O   GLU A 215      53.990  53.652  32.781  1.00 16.87           O  
+ATOM   1629  CB  GLU A 215      55.644  54.569  35.465  1.00 21.00           C  
+ATOM   1630  CG  GLU A 215      54.628  53.666  36.104  1.00 23.27           C  
+ATOM   1631  CD  GLU A 215      54.885  53.456  37.594  1.00 25.59           C  
+ATOM   1632  OE1 GLU A 215      56.022  53.174  38.039  1.00 25.65           O  
+ATOM   1633  OE2 GLU A 215      53.921  53.535  38.406  1.00 25.66           O  
+ATOM   1634  N   ASP A 216      56.108  54.003  32.222  1.00 19.19           N  
+ATOM   1635  CA  ASP A 216      56.146  53.179  31.027  1.00 20.59           C  

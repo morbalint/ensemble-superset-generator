@@ -1,0 +1,14 @@
+REMARK PDB ID 1ac5 residue_number 263 chain A residue_name A phi -66.5 psi -14.3 secondary_structure G
+REMARK PDB ID 1ac5 residue_number 264 chain A residue_name A phi -89.0 psi -13.3 secondary_structure G
+REMARK PDB ID 1ac5 residue_number 265 chain A residue_name H phi -89.0 psi 169.7 secondary_structure S
+ATOM   2461  CA  ALA A 263       2.335 -22.700  27.264  1.00 13.64           C  
+ATOM   2462  C   ALA A 263       2.124 -22.978  25.783  1.00 13.88           C  
+ATOM   2463  O   ALA A 263       2.968 -22.640  24.958  1.00 13.65           O  
+ATOM   2466  N   ALA A 264       1.002 -23.613  25.457  1.00 14.48           N  
+ATOM   2467  CA  ALA A 264       0.688 -23.937  24.072  1.00 15.67           C  
+ATOM   2468  C   ALA A 264      -0.068 -22.785  23.446  1.00 15.84           C  
+ATOM   2469  O   ALA A 264      -0.203 -22.714  22.226  1.00 17.19           O  
+ATOM   2470  CB  ALA A 264      -0.140 -25.210  24.006  1.00 16.03           C  
+ATOM   2471  H   ALA A 264       0.362 -23.851  26.157  1.00  0.00           H  
+ATOM   2472  N   HIS A 265      -0.535 -21.868  24.287  1.00 15.67           N  
+ATOM   2473  CA  HIS A 265      -1.298 -20.716  23.829  1.00 16.46           C  

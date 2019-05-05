@@ -1,0 +1,19 @@
+REMARK PDB ID 1agj residue_number 22 chain B residue_name A phi -50.3 psi -43.9 secondary_structure G
+REMARK PDB ID 1agj residue_number 23 chain B residue_name F phi -62.2 psi -22.2 secondary_structure G
+REMARK PDB ID 1agj residue_number 24 chain B residue_name N phi -99.1 psi 10.6 secondary_structure G
+ATOM   2090  CA  ALA B  22      34.434  -6.235  53.250  1.00 28.30           C  
+ATOM   2091  C   ALA B  22      34.597  -4.793  52.786  1.00 28.73           C  
+ATOM   2092  O   ALA B  22      33.883  -4.332  51.894  1.00 27.88           O  
+ATOM   2094  N   PHE B  23      35.543  -4.084  53.396  1.00 30.98           N  
+ATOM   2095  CA  PHE B  23      35.788  -2.688  53.050  1.00 31.79           C  
+ATOM   2096  C   PHE B  23      36.227  -2.544  51.601  1.00 32.27           C  
+ATOM   2097  O   PHE B  23      36.084  -1.476  51.004  1.00 32.26           O  
+ATOM   2098  CB  PHE B  23      36.859  -2.093  53.969  1.00 33.34           C  
+ATOM   2099  CG  PHE B  23      36.476  -2.088  55.424  1.00 35.79           C  
+ATOM   2100  CD1 PHE B  23      35.648  -1.096  55.935  1.00 35.63           C  
+ATOM   2101  CD2 PHE B  23      36.940  -3.080  56.284  1.00 36.86           C  
+ATOM   2102  CE1 PHE B  23      35.287  -1.093  57.284  1.00 36.69           C  
+ATOM   2103  CE2 PHE B  23      36.583  -3.085  57.633  1.00 36.87           C  
+ATOM   2104  CZ  PHE B  23      35.757  -2.091  58.132  1.00 35.90           C  
+ATOM   2105  N   ASN B  24      36.753  -3.624  51.034  1.00 31.99           N  
+ATOM   2106  CA  ASN B  24      37.227  -3.597  49.656  1.00 31.80           C  

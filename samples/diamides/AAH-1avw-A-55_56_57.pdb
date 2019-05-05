@@ -1,0 +1,13 @@
+REMARK PDB ID 1avw residue_number 55 chain A residue_name A phi -93.5 psi 139.5 secondary_structure  
+REMARK PDB ID 1avw residue_number 56 chain A residue_name A phi -58.2 psi -30.9 secondary_structure G
+REMARK PDB ID 1avw residue_number 57 chain A residue_name H phi -73.5 psi -9.2 secondary_structure G
+ATOM    269  CA  ALA A  55      23.246  -1.351  28.308  1.00 10.30           C  
+ATOM    270  C   ALA A  55      24.279  -2.473  28.324  1.00  8.96           C  
+ATOM    271  O   ALA A  55      25.248  -2.411  29.071  1.00 12.31           O  
+ATOM    273  N   ALA A  56      24.063  -3.508  27.513  1.00 11.83           N  
+ATOM    274  CA  ALA A  56      24.989  -4.637  27.422  1.00 11.09           C  
+ATOM    275  C   ALA A  56      26.374  -4.198  27.022  1.00 11.56           C  
+ATOM    276  O   ALA A  56      27.346  -4.813  27.427  1.00 12.68           O  
+ATOM    277  CB  ALA A  56      24.483  -5.676  26.437  1.00 10.49           C  
+ATOM    278  N   HIS A  57      26.484  -3.132  26.236  1.00 10.98           N  
+ATOM    279  CA  HIS A  57      27.812  -2.715  25.789  1.00  9.88           C  

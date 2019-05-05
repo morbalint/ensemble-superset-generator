@@ -1,0 +1,16 @@
+REMARK PDB ID 1ako residue_number 207 chain A residue_name A phi 124.9 psi 23.0 secondary_structure  
+REMARK PDB ID 1ako residue_number 208 chain A residue_name D phi 135.1 psi 26.7 secondary_structure S
+REMARK PDB ID 1ako residue_number 209 chain A residue_name R phi 125.0 psi 118.6 secondary_structure  
+ATOM   1674  CA  ALA A 207      45.781  12.078  18.614  1.00 16.23           C  
+ATOM   1675  C   ALA A 207      45.397  10.774  17.927  1.00 15.21           C  
+ATOM   1676  O   ALA A 207      46.171  10.240  17.128  1.00 16.44           O  
+ATOM   1678  N   ASP A 208      44.201  10.268  18.223  1.00 14.29           N  
+ATOM   1679  CA  ASP A 208      43.760   9.006  17.639  1.00 15.24           C  
+ATOM   1680  C   ASP A 208      42.320   9.001  17.111  1.00 15.79           C  
+ATOM   1681  O   ASP A 208      41.688   7.945  17.039  1.00 14.68           O  
+ATOM   1682  CB  ASP A 208      43.980   7.849  18.635  1.00 17.35           C  
+ATOM   1683  CG  ASP A 208      43.177   8.008  19.929  1.00 18.43           C  
+ATOM   1684  OD1 ASP A 208      42.703   9.120  20.233  1.00 19.37           O  
+ATOM   1685  OD2 ASP A 208      43.015   7.004  20.655  1.00 24.27           O  
+ATOM   1686  N   ARG A 209      41.821  10.174  16.724  1.00 15.38           N  
+ATOM   1687  CA  ARG A 209      40.467  10.294  16.181  1.00 15.29           C  

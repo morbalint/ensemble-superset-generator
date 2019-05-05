@@ -1,0 +1,13 @@
+REMARK PDB ID 1a73 residue_number 47 chain A residue_name A phi 145.4 psi 164.9 secondary_structure S
+REMARK PDB ID 1a73 residue_number 48 chain A residue_name A phi -64.2 psi 148.1 secondary_structure S
+REMARK PDB ID 1a73 residue_number 49 chain A residue_name P phi -81.1 psi 149.5 secondary_structure  
+ATOM   1203  CA  ALA A  47       0.610  36.588  10.593  1.00 18.28           C  
+ATOM   1204  C   ALA A  47      -0.828  36.999  10.889  1.00 19.28           C  
+ATOM   1205  O   ALA A  47      -1.740  36.168  10.817  1.00 18.75           O  
+ATOM   1207  N   ALA A  48      -1.020  38.275  11.227  1.00 18.18           N  
+ATOM   1208  CA  ALA A  48      -2.339  38.802  11.559  1.00 18.23           C  
+ATOM   1209  C   ALA A  48      -3.267  38.736  10.352  1.00 18.42           C  
+ATOM   1210  O   ALA A  48      -2.822  38.852   9.211  1.00 20.24           O  
+ATOM   1211  CB  ALA A  48      -2.211  40.244  12.066  1.00 18.64           C  
+ATOM   1212  N   PRO A  49      -4.574  38.542  10.588  1.00 18.44           N  
+ATOM   1213  CA  PRO A  49      -5.187  38.390  11.911  1.00 17.74           C  

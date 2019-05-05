@@ -1,0 +1,13 @@
+REMARK PDB ID 1a9x residue_number 4533 chain E residue_name A phi 57.0 psi 38.4 secondary_structure T
+REMARK PDB ID 1a9x residue_number 4534 chain E residue_name A phi 69.9 psi 10.3 secondary_structure T
+REMARK PDB ID 1a9x residue_number 4535 chain E residue_name E phi -69.4 psi -26.0 secondary_structure S
+ATOM  26303  CA  ALA E4533       3.301  97.497  60.270  1.00  8.94           C  
+ATOM  26304  C   ALA E4533       2.390  98.045  61.362  1.00 24.19           C  
+ATOM  26305  O   ALA E4533       2.737  97.906  62.520  1.00 19.28           O  
+ATOM  26307  N   ALA E4534       1.236  98.615  60.997  1.00 11.65           N  
+ATOM  26308  CA  ALA E4534       0.248  99.194  61.947  1.00 13.45           C  
+ATOM  26309  C   ALA E4534       0.673 100.489  62.662  1.00 21.11           C  
+ATOM  26310  O   ALA E4534       0.002 100.916  63.601  1.00 25.83           O  
+ATOM  26311  CB  ALA E4534      -0.276  98.206  62.984  1.00 15.68           C  
+ATOM  26312  N   GLU E4535       1.775 101.110  62.241  1.00 24.76           N  
+ATOM  26313  CA  GLU E4535       2.205 102.338  62.877  1.00 18.38           C  

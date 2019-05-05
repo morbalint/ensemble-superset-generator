@@ -1,0 +1,13 @@
+REMARK PDB ID 1a2o residue_number 136 chain A residue_name A phi -67.5 psi -21.1 secondary_structure G
+REMARK PDB ID 1a2o residue_number 137 chain A residue_name A phi -67.7 psi -18.1 secondary_structure G
+REMARK PDB ID 1a2o residue_number 138 chain A residue_name H phi -93.6 psi 10.3 secondary_structure G
+ATOM   1047  CA  ALA A 136      44.491  88.659  38.001  1.00 17.27           C  
+ATOM   1048  C   ALA A 136      43.939  87.240  37.870  1.00 17.72           C  
+ATOM   1049  O   ALA A 136      42.988  86.938  38.592  1.00 17.21           O  
+ATOM   1051  N   ALA A 137      44.501  86.381  37.028  1.00 17.49           N  
+ATOM   1052  CA  ALA A 137      44.008  85.010  36.924  1.00 16.88           C  
+ATOM   1053  C   ALA A 137      44.304  84.266  38.208  1.00 17.40           C  
+ATOM   1054  O   ALA A 137      43.800  83.176  38.478  1.00 19.45           O  
+ATOM   1055  CB  ALA A 137      44.665  84.314  35.722  1.00 16.40           C  
+ATOM   1056  N   HIS A 138      45.233  84.804  38.996  1.00 17.51           N  
+ATOM   1057  CA  HIS A 138      45.624  84.209  40.267  1.00 16.69           C  

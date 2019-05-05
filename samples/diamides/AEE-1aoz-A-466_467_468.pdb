@@ -1,0 +1,17 @@
+REMARK PDB ID 1aoz residue_number 466 chain A residue_name A phi -48.6 psi -26.6 secondary_structure G
+REMARK PDB ID 1aoz residue_number 467 chain A residue_name E phi -65.3 psi -25.3 secondary_structure G
+REMARK PDB ID 1aoz residue_number 468 chain A residue_name E phi -84.2 psi -4.9 secondary_structure G
+ATOM   3701  CA  ALA A 466      19.574  33.840  -5.197  1.00 24.18           C  
+ATOM   3702  C   ALA A 466      19.625  35.207  -4.529  1.00 23.83           C  
+ATOM   3703  O   ALA A 466      20.156  36.185  -5.067  1.00 27.57           O  
+ATOM   3705  N   GLU A 467      19.115  35.303  -3.311  1.00 20.30           N  
+ATOM   3706  CA  GLU A 467      19.109  36.559  -2.558  1.00 25.36           C  
+ATOM   3707  C   GLU A 467      20.554  36.964  -2.247  1.00 27.11           C  
+ATOM   3708  O   GLU A 467      20.896  38.138  -2.102  1.00 33.63           O  
+ATOM   3709  CB  GLU A 467      18.328  36.364  -1.252  1.00 14.14           C  
+ATOM   3710  CG  GLU A 467      16.953  35.735  -1.416  1.00 30.83           C  
+ATOM   3711  CD  GLU A 467      16.427  35.022  -0.170  1.00 34.62           C  
+ATOM   3712  OE1 GLU A 467      16.592  35.505   0.948  1.00 30.72           O  
+ATOM   3713  OE2 GLU A 467      15.850  33.950  -0.329  1.00 44.74           O  
+ATOM   3714  N   GLU A 468      21.452  35.983  -2.200  1.00 23.06           N  
+ATOM   3715  CA  GLU A 468      22.844  36.231  -1.851  1.00 27.67           C  

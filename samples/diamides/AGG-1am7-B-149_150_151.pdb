@@ -1,0 +1,12 @@
+REMARK PDB ID 1am7 residue_number 149 chain B residue_name A phi -83.1 psi 1.7 secondary_structure T
+REMARK PDB ID 1am7 residue_number 150 chain B residue_name G phi 98.1 psi 4.6 secondary_structure T
+REMARK PDB ID 1am7 residue_number 151 chain B residue_name G phi -81.5 psi 152.4 secondary_structure  
+ATOM   2420  CA  ALA B 149      63.326  10.545  10.176  1.00 22.00           C  
+ATOM   2421  C   ALA B 149      62.360   9.987   9.126  1.00 21.41           C  
+ATOM   2422  O   ALA B 149      61.173   9.810   9.381  1.00 21.30           O  
+ATOM   2424  N   GLY B 150      62.866   9.747   7.924  1.00 19.58           N  
+ATOM   2425  CA  GLY B 150      62.034   9.206   6.867  1.00 19.99           C  
+ATOM   2426  C   GLY B 150      61.481  10.223   5.876  1.00 24.30           C  
+ATOM   2427  O   GLY B 150      60.668   9.877   5.021  1.00 24.66           O  
+ATOM   2428  N   GLY B 151      61.872  11.487   5.999  1.00 22.62           N  
+ATOM   2429  CA  GLY B 151      61.370  12.485   5.081  1.00 24.29           C  

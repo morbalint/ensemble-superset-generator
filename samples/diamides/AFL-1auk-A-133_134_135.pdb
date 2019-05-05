@@ -1,0 +1,19 @@
+REMARK PDB ID 1auk residue_number 133 chain A residue_name A phi -65.1 psi -24.4 secondary_structure T
+REMARK PDB ID 1auk residue_number 134 chain A residue_name F phi -98.7 psi -4.7 secondary_structure T
+REMARK PDB ID 1auk residue_number 135 chain A residue_name L phi -63.8 psi 160.5 secondary_structure S
+ATOM    829  CA  ALA A 133      17.114  48.288 -36.308  1.00 43.47           C  
+ATOM    830  C   ALA A 133      17.378  48.451 -34.813  1.00 47.56           C  
+ATOM    831  O   ALA A 133      17.355  49.572 -34.295  1.00 50.73           O  
+ATOM    833  N   PHE A 134      17.574  47.355 -34.089  1.00 50.14           N  
+ATOM    834  CA  PHE A 134      17.747  47.386 -32.639  1.00 47.28           C  
+ATOM    835  C   PHE A 134      19.201  47.322 -32.210  1.00 48.23           C  
+ATOM    836  O   PHE A 134      19.493  47.431 -31.015  1.00 50.55           O  
+ATOM    837  CB  PHE A 134      17.008  46.171 -32.074  1.00 42.96           C  
+ATOM    838  CG  PHE A 134      15.527  46.168 -32.235  1.00 39.66           C  
+ATOM    839  CD1 PHE A 134      14.764  47.278 -31.895  1.00 43.86           C  
+ATOM    840  CD2 PHE A 134      14.865  45.047 -32.699  1.00 41.65           C  
+ATOM    841  CE1 PHE A 134      13.389  47.278 -32.026  1.00 43.95           C  
+ATOM    842  CE2 PHE A 134      13.490  45.017 -32.844  1.00 41.11           C  
+ATOM    843  CZ  PHE A 134      12.758  46.137 -32.505  1.00 43.97           C  
+ATOM    844  N   LEU A 135      20.125  47.152 -33.154  1.00 47.17           N  
+ATOM    845  CA  LEU A 135      21.541  47.073 -32.822  1.00 44.30           C  

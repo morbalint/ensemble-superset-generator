@@ -1,0 +1,13 @@
+REMARK PDB ID 1a7s residue_number 39 chain A residue_name A phi -94.5 psi 138.7 secondary_structure  
+REMARK PDB ID 1a7s residue_number 40 chain A residue_name A phi -62.2 psi -29.5 secondary_structure G
+REMARK PDB ID 1a7s residue_number 41 chain A residue_name S phi -65.7 psi -11.7 secondary_structure G
+ATOM    300  CA  ALA A  39       3.754  15.621  33.329  1.00  7.36           C  
+ATOM    301  C   ALA A  39       2.336  15.626  32.857  1.00  7.46           C  
+ATOM    302  O   ALA A  39       1.839  16.591  32.260  1.00  8.25           O  
+ATOM    304  N   ALA A  40       1.587  14.561  33.206  1.00  8.18           N  
+ATOM    305  CA  ALA A  40       0.146  14.533  32.975  1.00  8.68           C  
+ATOM    306  C   ALA A  40      -0.596  15.621  33.741  1.00  8.59           C  
+ATOM    307  O   ALA A  40      -1.645  16.119  33.258  1.00  9.78           O  
+ATOM    308  CB  ALA A  40      -0.450  13.171  33.269  1.00  9.18           C  
+ATOM    309  N   SER A  41      -0.059  16.010  34.879  1.00  8.73           N  
+ATOM    310  CA  SER A  41      -0.678  17.056  35.678  1.00  9.84           C  

@@ -1,0 +1,15 @@
+REMARK PDB ID 1auu residue_number 26 chain B residue_name A phi -53.7 psi 105.6 secondary_structure T
+REMARK PDB ID 1auu residue_number 27 chain B residue_name G phi 95.4 psi 8.9 secondary_structure T
+REMARK PDB ID 1auu residue_number 28 chain B residue_name I phi -57.7 psi -47.3 secondary_structure S
+ATOM   1360  CA  ALA B  26      -0.452  -4.800  -0.983  1.00  0.00           C  
+ATOM   1361  C   ALA B  26      -0.298  -6.319  -1.116  1.00  0.00           C  
+ATOM   1362  O   ALA B  26       0.793  -6.843  -1.257  1.00  0.00           O  
+ATOM   1369  N   GLY B  27      -1.402  -7.015  -1.068  1.00  0.00           N  
+ATOM   1370  CA  GLY B  27      -1.389  -8.503  -1.189  1.00  0.00           C  
+ATOM   1371  C   GLY B  27      -1.384  -9.154   0.201  1.00  0.00           C  
+ATOM   1372  O   GLY B  27      -1.214 -10.353   0.324  1.00  0.00           O  
+ATOM   1373  H   GLY B  27      -2.249  -6.548  -0.950  1.00  0.00           H  
+ATOM   1374  HA2 GLY B  27      -2.267  -8.825  -1.730  1.00  0.00           H  
+ATOM   1375  HA3 GLY B  27      -0.512  -8.806  -1.724  1.00  0.00           H  
+ATOM   1376  N   ILE B  28      -1.572  -8.376   1.243  1.00  0.00           N  
+ATOM   1377  CA  ILE B  28      -1.585  -8.927   2.629  1.00  0.00           C  

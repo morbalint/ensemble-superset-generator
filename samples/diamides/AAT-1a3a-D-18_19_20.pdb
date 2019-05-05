@@ -1,0 +1,13 @@
+REMARK PDB ID 1a3a residue_number 18 chain D residue_name A phi 155.6 psi 133.3 secondary_structure  
+REMARK PDB ID 1a3a residue_number 19 chain D residue_name A phi -77.7 psi -26.4 secondary_structure S
+REMARK PDB ID 1a3a residue_number 20 chain D residue_name T phi 132.7 psi 158.5 secondary_structure S
+ATOM   3473  CA  ALA D  18     -34.367  11.710  10.903  1.00 23.97           C  
+ATOM   3474  C   ALA D  18     -33.648  12.854  11.597  1.00 23.81           C  
+ATOM   3475  O   ALA D  18     -32.702  13.432  11.063  1.00 23.96           O  
+ATOM   3477  N   ALA D  19     -34.091  13.170  12.814  1.00 23.74           N  
+ATOM   3478  CA  ALA D  19     -33.446  14.273  13.541  1.00 23.72           C  
+ATOM   3479  C   ALA D  19     -32.124  13.833  14.137  1.00 22.74           C  
+ATOM   3480  O   ALA D  19     -31.217  14.632  14.385  1.00 23.88           O  
+ATOM   3481  CB  ALA D  19     -34.425  14.755  14.604  1.00 24.47           C  
+ATOM   3482  N   THR D  20     -31.994  12.521  14.415  1.00 23.40           N  
+ATOM   3483  CA  THR D  20     -30.780  11.997  15.021  1.00 22.14           C  

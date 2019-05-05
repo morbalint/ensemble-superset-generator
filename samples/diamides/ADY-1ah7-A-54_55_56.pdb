@@ -1,0 +1,16 @@
+REMARK PDB ID 1ah7 residue_number 54 chain A residue_name A phi -53.7 psi -37.3 secondary_structure T
+REMARK PDB ID 1ah7 residue_number 55 chain A residue_name D phi -94.6 psi 1.6 secondary_structure T
+REMARK PDB ID 1ah7 residue_number 56 chain A residue_name Y phi 120.1 psi -19.4 secondary_structure T
+ATOM    444  CA  ALA A  54      36.813  16.440   9.511  1.00 11.50           C  
+ATOM    445  C   ALA A  54      36.935  16.988   8.102  1.00 11.24           C  
+ATOM    446  O   ALA A  54      35.961  17.625   7.688  1.00 10.72           O  
+ATOM    448  N   ASP A  55      38.079  16.802   7.444  1.00 10.81           N  
+ATOM    449  CA  ASP A  55      38.213  17.373   6.111  1.00 10.56           C  
+ATOM    450  C   ASP A  55      37.859  16.380   5.014  1.00 12.88           C  
+ATOM    451  O   ASP A  55      38.089  16.699   3.851  1.00 13.55           O  
+ATOM    452  CB  ASP A  55      39.665  17.838   5.896  1.00 11.33           C  
+ATOM    453  CG  ASP A  55      39.955  19.208   6.441  1.00 11.08           C  
+ATOM    454  OD1 ASP A  55      39.092  19.909   7.029  1.00  9.75           O  
+ATOM    455  OD2 ASP A  55      41.131  19.639   6.336  1.00 13.08           O  
+ATOM    456  N   TYR A  56      37.451  15.161   5.384  1.00 12.79           N  
+ATOM    457  CA  TYR A  56      37.325  14.116   4.342  1.00 15.99           C  

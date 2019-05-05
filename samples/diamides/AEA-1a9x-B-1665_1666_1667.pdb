@@ -1,0 +1,17 @@
+REMARK PDB ID 1a9x residue_number 1665 chain B residue_name A phi -75.7 psi -45.5 secondary_structure S
+REMARK PDB ID 1a9x residue_number 1666 chain B residue_name E phi 126.7 psi 156.7 secondary_structure S
+REMARK PDB ID 1a9x residue_number 1667 chain B residue_name A phi -68.6 psi 148.8 secondary_structure  
+ATOM   9427  CA  ALA B1665      11.176  69.992 110.831  1.00 43.20           C  
+ATOM   9428  C   ALA B1665      10.030  69.601 111.773  1.00 40.32           C  
+ATOM   9429  O   ALA B1665      10.116  69.718 113.009  1.00 65.48           O  
+ATOM   9431  N   GLU B1666       8.943  69.099 111.200  1.00 50.14           N  
+ATOM   9432  CA  GLU B1666       7.811  68.645 111.987  1.00 45.69           C  
+ATOM   9433  C   GLU B1666       7.459  67.208 111.591  1.00 94.22           C  
+ATOM   9434  O   GLU B1666       7.783  66.731 110.492  1.00 43.99           O  
+ATOM   9435  CB  GLU B1666       6.567  69.573 111.966  1.00100.00           C  
+ATOM   9436  CG  GLU B1666       6.570  70.636 110.846  1.00100.00           C  
+ATOM   9437  CD  GLU B1666       5.188  71.093 110.421  1.00100.00           C  
+ATOM   9438  OE1 GLU B1666       4.159  70.827 111.047  1.00 98.65           O  
+ATOM   9439  OE2 GLU B1666       5.214  71.831 109.311  1.00100.00           O  
+ATOM   9440  N   ALA B1667       6.804  66.506 112.504  1.00 41.28           N  
+ATOM   9441  CA  ALA B1667       6.405  65.142 112.241  1.00 60.38           C  

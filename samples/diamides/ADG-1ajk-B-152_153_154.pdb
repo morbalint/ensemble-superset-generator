@@ -1,0 +1,16 @@
+REMARK PDB ID 1ajk residue_number 152 chain B residue_name A phi -71.5 psi 145.8 secondary_structure  
+REMARK PDB ID 1ajk residue_number 153 chain B residue_name D phi 162.4 psi 141.7 secondary_structure  
+REMARK PDB ID 1ajk residue_number 154 chain B residue_name G phi 94.5 psi 0.6 secondary_structure S
+ATOM   2795  CA  ALA B 152       8.583   9.732  -5.780  1.00 17.56           C  
+ATOM   2796  C   ALA B 152       7.428  10.276  -6.567  1.00 19.46           C  
+ATOM   2797  O   ALA B 152       6.299   9.789  -6.419  1.00 19.43           O  
+ATOM   2799  N   ASP B 153       7.706  11.181  -7.537  1.00 18.42           N  
+ATOM   2800  CA  ASP B 153       6.550  11.615  -8.327  1.00 22.68           C  
+ATOM   2801  C   ASP B 153       6.966  12.285  -9.662  1.00 23.16           C  
+ATOM   2802  O   ASP B 153       7.885  13.106  -9.671  1.00 24.65           O  
+ATOM   2803  CB  ASP B 153       5.802  12.650  -7.465  1.00 25.03           C  
+ATOM   2804  CG  ASP B 153       4.554  13.222  -8.090  1.00 26.19           C  
+ATOM   2805  OD1 ASP B 153       3.612  12.527  -8.508  1.00 24.36           O  
+ATOM   2806  OD2 ASP B 153       4.628  14.479  -8.191  1.00 32.41           O  
+ATOM   2807  N   GLY B 154       6.171  11.977 -10.673  1.00 25.36           N  
+ATOM   2808  CA  GLY B 154       6.222  12.792 -11.902  1.00 24.97           C  

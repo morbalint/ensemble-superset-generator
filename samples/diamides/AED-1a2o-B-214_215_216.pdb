@@ -1,0 +1,17 @@
+REMARK PDB ID 1a2o residue_number 214 chain B residue_name A phi -53.3 psi 138.5 secondary_structure  
+REMARK PDB ID 1a2o residue_number 215 chain B residue_name E phi 118.7 psi 133.5 secondary_structure  
+REMARK PDB ID 1a2o residue_number 216 chain B residue_name D phi -50.2 psi 118.5 secondary_structure T
+ATOM   4224  CA  ALA B 214      23.308  97.829   3.509  1.00 20.90           C  
+ATOM   4225  C   ALA B 214      22.141  98.681   3.022  1.00 21.77           C  
+ATOM   4226  O   ALA B 214      21.068  98.171   2.653  1.00 22.19           O  
+ATOM   4228  N   GLU B 215      22.367  99.995   2.972  1.00 22.33           N  
+ATOM   4229  CA  GLU B 215      21.305 100.918   2.526  1.00 22.23           C  
+ATOM   4230  C   GLU B 215      21.749 101.663   1.279  1.00 21.20           C  
+ATOM   4231  O   GLU B 215      22.860 102.179   1.198  1.00 18.59           O  
+ATOM   4232  CB  GLU B 215      20.948 101.886   3.652  1.00 22.69           C  
+ATOM   4233  CG  GLU B 215      20.232 101.207   4.795  1.00 24.88           C  
+ATOM   4234  CD  GLU B 215      20.007 102.050   6.022  1.00 26.36           C  
+ATOM   4235  OE1 GLU B 215      20.933 102.339   6.814  1.00 26.95           O  
+ATOM   4236  OE2 GLU B 215      18.861 102.489   6.274  1.00 28.20           O  
+ATOM   4237  N   ASP B 216      20.845 101.710   0.300  1.00 21.78           N  
+ATOM   4238  CA  ASP B 216      21.128 102.352  -0.972  1.00 21.72           C  

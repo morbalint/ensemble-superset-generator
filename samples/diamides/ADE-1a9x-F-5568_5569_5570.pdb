@@ -1,0 +1,16 @@
+REMARK PDB ID 1a9x residue_number 5568 chain F residue_name A phi -59.0 psi -21.0 secondary_structure G
+REMARK PDB ID 1a9x residue_number 5569 chain F residue_name D phi -96.8 psi 18.1 secondary_structure G
+REMARK PDB ID 1a9x residue_number 5570 chain F residue_name E phi -92.9 psi 119.1 secondary_structure  
+ATOM  30866  CA  ALA F5568      29.366  92.256  68.188  1.00 18.57           C  
+ATOM  30867  C   ALA F5568      28.099  93.052  67.995  1.00 36.63           C  
+ATOM  30868  O   ALA F5568      28.145  94.239  67.739  1.00 30.83           O  
+ATOM  30870  N   ASP F5569      26.968  92.391  68.137  1.00 24.59           N  
+ATOM  30871  CA  ASP F5569      25.685  93.067  67.948  1.00 25.77           C  
+ATOM  30872  C   ASP F5569      25.042  93.541  69.249  1.00 46.23           C  
+ATOM  30873  O   ASP F5569      23.836  93.786  69.287  1.00 25.72           O  
+ATOM  30874  CB  ASP F5569      24.685  92.235  67.073  1.00 20.69           C  
+ATOM  30875  CG  ASP F5569      25.076  92.059  65.626  1.00 29.46           C  
+ATOM  30876  OD1 ASP F5569      26.111  92.760  65.269  1.00 33.34           O  
+ATOM  30877  OD2 ASP F5569      24.507  91.296  64.873  1.00 36.38           O  
+ATOM  30878  N   GLU F5570      25.861  93.627  70.301  1.00 26.19           N  
+ATOM  30879  CA  GLU F5570      25.471  94.114  71.626  1.00 24.78           C  

@@ -1,0 +1,13 @@
+REMARK PDB ID 1a9x residue_number 7863 chain H residue_name A phi -93.9 psi 9.0 secondary_structure T
+REMARK PDB ID 1a9x residue_number 7864 chain H residue_name A phi -57.4 psi -29.9 secondary_structure T
+REMARK PDB ID 1a9x residue_number 7865 chain H residue_name P phi -67.9 psi -13.7 secondary_structure T
+ATOM  44201  CA  ALA H7863      15.951 -41.541 -35.210  1.00 30.60           C  
+ATOM  44202  C   ALA H7863      17.216 -41.604 -36.017  1.00 32.62           C  
+ATOM  44203  O   ALA H7863      17.358 -42.451 -36.868  1.00 35.44           O  
+ATOM  44205  N   ALA H7864      18.137 -40.708 -35.746  1.00 28.90           N  
+ATOM  44206  CA  ALA H7864      19.401 -40.682 -36.457  1.00 30.77           C  
+ATOM  44207  C   ALA H7864      20.225 -41.952 -36.399  1.00 27.86           C  
+ATOM  44208  O   ALA H7864      21.008 -42.174 -37.308  1.00 30.00           O  
+ATOM  44209  CB  ALA H7864      20.298 -39.566 -35.883  1.00 40.59           C  
+ATOM  44210  N   PRO H7865      20.133 -42.737 -35.328  1.00 41.75           N  
+ATOM  44211  CA  PRO H7865      20.966 -43.920 -35.232  1.00 28.80           C  

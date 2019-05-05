@@ -1,0 +1,12 @@
+REMARK PDB ID 1a9x residue_number 431 chain A residue_name A phi -43.7 psi 131.9 secondary_structure  
+REMARK PDB ID 1a9x residue_number 432 chain A residue_name G phi 122.4 psi -172.6 secondary_structure B
+REMARK PDB ID 1a9x residue_number 433 chain A residue_name A phi -70.2 psi -20.9 secondary_structure T
+ATOM   3277  CA  ALA A 431      20.079  43.385  58.219  1.00 17.15           C  
+ATOM   3278  C   ALA A 431      20.806  42.251  57.558  1.00 21.98           C  
+ATOM   3279  O   ALA A 431      20.262  41.138  57.434  1.00 19.46           O  
+ATOM   3281  N   GLY A 432      22.025  42.582  57.168  1.00 15.97           N  
+ATOM   3282  CA  GLY A 432      22.968  41.665  56.559  1.00 18.88           C  
+ATOM   3283  C   GLY A 432      24.166  41.733  57.483  1.00 28.48           C  
+ATOM   3284  O   GLY A 432      24.098  42.360  58.542  1.00 18.65           O  
+ATOM   3285  N   ALA A 433      25.254  41.108  57.102  1.00 13.56           N  
+ATOM   3286  CA  ALA A 433      26.438  41.153  57.919  1.00 22.52           C  

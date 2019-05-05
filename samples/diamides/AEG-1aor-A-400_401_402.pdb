@@ -1,0 +1,17 @@
+REMARK PDB ID 1aor residue_number 400 chain A residue_name A phi -66.5 psi -10.9 secondary_structure T
+REMARK PDB ID 1aor residue_number 401 chain A residue_name E phi -87.1 psi -10.8 secondary_structure T
+REMARK PDB ID 1aor residue_number 402 chain A residue_name G phi 94.7 psi 166.7 secondary_structure  
+ATOM   3046  CA  ALA A 400      39.584   7.340  11.708  1.00 16.95           C  
+ATOM   3047  C   ALA A 400      40.381   7.244  13.025  1.00 17.28           C  
+ATOM   3048  O   ALA A 400      41.474   7.825  13.142  1.00 16.95           O  
+ATOM   3050  N   GLU A 401      39.845   6.512  14.001  1.00 16.63           N  
+ATOM   3051  CA  GLU A 401      40.513   6.331  15.297  1.00 16.79           C  
+ATOM   3052  C   GLU A 401      41.490   5.159  15.299  1.00 17.51           C  
+ATOM   3053  O   GLU A 401      42.253   4.978  16.251  1.00 19.74           O  
+ATOM   3054  CB  GLU A 401      39.481   6.114  16.400  1.00 16.70           C  
+ATOM   3055  CG  GLU A 401      38.534   7.272  16.570  1.00 19.92           C  
+ATOM   3056  CD  GLU A 401      39.259   8.545  16.956  1.00 24.80           C  
+ATOM   3057  OE1 GLU A 401      39.983   8.522  17.976  1.00 29.20           O  
+ATOM   3058  OE2 GLU A 401      39.111   9.563  16.241  1.00 26.01           O  
+ATOM   3059  N   GLY A 402      41.441   4.349  14.245  1.00 15.78           N  
+ATOM   3060  CA  GLY A 402      42.319   3.201  14.146  1.00 15.37           C  

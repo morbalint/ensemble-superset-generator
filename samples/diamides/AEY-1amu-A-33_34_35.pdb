@@ -1,0 +1,13 @@
+REMARK PDB ID 1amu residue_number 33 chain A residue_name A phi 153.5 psi 149.0 secondary_structure  
+REMARK PDB ID 1amu residue_number 34 chain A residue_name E phi -70.2 psi 140.7 secondary_structure  
+REMARK PDB ID 1amu residue_number 35 chain A residue_name Y phi 159.0 psi 157.6 secondary_structure  
+ATOM    134  CA  ALA A  33      14.977  91.559  43.659  1.00 23.33           C  
+ATOM    135  C   ALA A  33      14.253  92.890  43.671  1.00 24.32           C  
+ATOM    136  O   ALA A  33      14.096  93.532  42.625  1.00 24.56           O  
+ATOM    138  N   GLU A  34      13.738  93.266  44.837  1.00 24.79           N  
+ATOM    139  CA  GLU A  34      13.016  94.523  44.968  1.00 24.99           C  
+ATOM    140  C   GLU A  34      14.008  95.666  44.846  1.00 23.20           C  
+ATOM    141  O   GLU A  34      15.135  95.572  45.331  1.00 24.72           O  
+ATOM    142  CB  GLU A  34      12.287  94.595  46.318  1.00 26.21           C  
+ATOM    143  N   TYR A  35      13.595  96.725  44.165  1.00 23.02           N  
+ATOM    144  CA  TYR A  35      14.423  97.911  44.011  1.00 21.63           C  

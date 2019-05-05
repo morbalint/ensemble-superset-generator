@@ -1,0 +1,23 @@
+REMARK PDB ID 1aml residue_number 2 chain A residue_name A phi -75.0 psi 172.8 secondary_structure  
+REMARK PDB ID 1aml residue_number 3 chain A residue_name E phi 150.5 psi 27.6 secondary_structure  
+REMARK PDB ID 1aml residue_number 4 chain A residue_name F phi -40.7 psi -45.0 secondary_structure S
+ATOM     16  CA  ALA A   2      11.333   1.379  -6.701  1.00  0.00           C  
+ATOM     17  C   ALA A   2      11.940   1.472  -5.300  1.00  0.00           C  
+ATOM     18  O   ALA A   2      12.408   2.512  -4.882  1.00  0.00           O  
+ATOM     25  N   GLU A   3      11.935   0.390  -4.571  1.00  0.00           N  
+ATOM     26  CA  GLU A   3      12.511   0.412  -3.198  1.00  0.00           C  
+ATOM     27  C   GLU A   3      13.054  -0.976  -2.853  1.00  0.00           C  
+ATOM     28  O   GLU A   3      13.105  -1.363  -1.703  1.00  0.00           O  
+ATOM     29  CB  GLU A   3      11.422   0.791  -2.195  1.00  0.00           C  
+ATOM     30  CG  GLU A   3      12.043   1.591  -1.049  1.00  0.00           C  
+ATOM     31  CD  GLU A   3      11.781   3.082  -1.267  1.00  0.00           C  
+ATOM     32  OE1 GLU A   3      11.249   3.424  -2.310  1.00  0.00           O  
+ATOM     33  OE2 GLU A   3      12.117   3.857  -0.387  1.00  0.00           O  
+ATOM     34  H   GLU A   3      11.552  -0.439  -4.928  1.00  0.00           H  
+ATOM     35  HA  GLU A   3      13.311   1.135  -3.153  1.00  0.00           H  
+ATOM     36  HB2 GLU A   3      10.670   1.389  -2.689  1.00  0.00           H  
+ATOM     37  HB3 GLU A   3      10.969  -0.107  -1.802  1.00  0.00           H  
+ATOM     38  HG2 GLU A   3      11.604   1.279  -0.113  1.00  0.00           H  
+ATOM     39  HG3 GLU A   3      13.108   1.415  -1.024  1.00  0.00           H  
+ATOM     40  N   PHE A   4      13.451  -1.726  -3.844  1.00  0.00           N  
+ATOM     41  CA  PHE A   4      13.987  -3.095  -3.586  1.00  0.00           C  

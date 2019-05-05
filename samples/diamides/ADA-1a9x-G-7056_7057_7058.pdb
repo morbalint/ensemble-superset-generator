@@ -1,0 +1,16 @@
+REMARK PDB ID 1a9x residue_number 7056 chain G residue_name A phi 133.9 psi 158.2 secondary_structure  
+REMARK PDB ID 1a9x residue_number 7057 chain G residue_name D phi 122.2 psi 105.6 secondary_structure  
+REMARK PDB ID 1a9x residue_number 7058 chain G residue_name A phi -58.7 psi -30.5 secondary_structure T
+ATOM  41314  CA  ALA G7056       6.088 -26.418  24.283  1.00 26.18           C  
+ATOM  41315  C   ALA G7056       7.182 -26.947  23.368  1.00 41.12           C  
+ATOM  41316  O   ALA G7056       8.215 -26.304  23.159  1.00 47.84           O  
+ATOM  41318  N   ASP G7057       6.956 -28.155  22.856  1.00 55.82           N  
+ATOM  41319  CA  ASP G7057       7.901 -28.782  21.953  1.00 29.62           C  
+ATOM  41320  C   ASP G7057       7.177 -29.093  20.648  1.00 35.72           C  
+ATOM  41321  O   ASP G7057       6.391 -30.041  20.566  1.00 44.90           O  
+ATOM  41322  CB  ASP G7057       8.632 -30.018  22.535  1.00 40.55           C  
+ATOM  41323  CG  ASP G7057       9.693 -30.658  21.637  1.00 33.01           C  
+ATOM  41324  OD1 ASP G7057       9.758 -30.139  20.417  1.00 42.38           O  
+ATOM  41325  OD2 ASP G7057      10.422 -31.569  22.008  1.00 77.56           O  
+ATOM  41326  N   ALA G7058       7.492 -28.282  19.644  1.00 35.99           N  
+ATOM  41327  CA  ALA G7058       6.901 -28.425  18.342  1.00 33.84           C  

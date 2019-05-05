@@ -1,0 +1,16 @@
+REMARK PDB ID 1ajo residue_number 109 chain B residue_name A phi -69.3 psi 140.5 secondary_structure  
+REMARK PDB ID 1ajo residue_number 110 chain B residue_name D phi 153.6 psi 126.6 secondary_structure  
+REMARK PDB ID 1ajo residue_number 111 chain B residue_name G phi 96.6 psi 3.9 secondary_structure S
+ATOM   2542  CA  ALA B 109     -17.396  16.355 -32.869  1.00 15.83           C  
+ATOM   2543  C   ALA B 109     -18.449  15.217 -32.910  1.00 19.11           C  
+ATOM   2544  O   ALA B 109     -18.263  14.202 -32.202  1.00 17.58           O  
+ATOM   2546  N   ASP B 110     -19.431  15.264 -33.796  1.00 19.23           N  
+ATOM   2547  CA  ASP B 110     -20.422  14.183 -33.807  1.00 19.34           C  
+ATOM   2548  C   ASP B 110     -21.082  13.966 -35.151  1.00 20.13           C  
+ATOM   2549  O   ASP B 110     -21.688  14.900 -35.675  1.00 21.15           O  
+ATOM   2550  CB  ASP B 110     -21.496  14.469 -32.757  1.00 20.49           C  
+ATOM   2551  CG  ASP B 110     -22.462  13.295 -32.644  1.00 21.47           C  
+ATOM   2552  OD1 ASP B 110     -22.064  12.135 -32.471  1.00 20.44           O  
+ATOM   2553  OD2 ASP B 110     -23.659  13.583 -32.724  1.00 21.90           O  
+ATOM   2554  N   GLY B 111     -21.061  12.739 -35.664  1.00 17.03           N  
+ATOM   2555  CA  GLY B 111     -21.976  12.406 -36.749  1.00 16.39           C  

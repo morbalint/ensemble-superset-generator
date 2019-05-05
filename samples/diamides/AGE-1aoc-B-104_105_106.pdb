@@ -1,0 +1,12 @@
+REMARK PDB ID 1aoc residue_number 104 chain B residue_name A phi -91.6 psi 10.6 secondary_structure T
+REMARK PDB ID 1aoc residue_number 105 chain B residue_name G phi 76.2 psi 6.9 secondary_structure S
+REMARK PDB ID 1aoc residue_number 106 chain B residue_name E phi -83.8 psi 148.0 secondary_structure  
+ATOM   2175  CA  ALA B 104      -5.075 -10.618  40.099  1.00 45.46           C  
+ATOM   2176  C   ALA B 104      -4.539 -11.600  41.121  1.00 48.51           C  
+ATOM   2177  O   ALA B 104      -3.373 -11.962  41.060  1.00 52.32           O  
+ATOM   2179  N   GLY B 105      -5.361 -11.958  42.100  1.00 49.07           N  
+ATOM   2180  CA  GLY B 105      -4.962 -12.911  43.117  1.00 48.30           C  
+ATOM   2181  C   GLY B 105      -4.029 -12.433  44.213  1.00 47.75           C  
+ATOM   2182  O   GLY B 105      -3.600 -13.245  45.035  1.00 52.22           O  
+ATOM   2183  N   GLU B 106      -3.734 -11.139  44.269  1.00 44.32           N  
+ATOM   2184  CA  GLU B 106      -2.838 -10.627  45.299  1.00 43.17           C  

@@ -1,0 +1,12 @@
+REMARK PDB ID 1axi residue_number 89 chain B residue_name A phi -93.8 psi 13.8 secondary_structure T
+REMARK PDB ID 1axi residue_number 90 chain B residue_name G phi 95.5 psi -166.2 secondary_structure  
+REMARK PDB ID 1axi residue_number 91 chain B residue_name E phi -68.3 psi 143.9 secondary_structure T
+ATOM   1760  CA  ALA B  89      48.597  48.580 149.023  1.00 22.39           C  
+ATOM   1761  C   ALA B  89      47.372  48.929 149.828  1.00 21.08           C  
+ATOM   1762  O   ALA B  89      46.398  48.196 149.935  1.00 24.77           O  
+ATOM   1764  N   GLY B  90      47.414  50.025 150.591  1.00 23.41           N  
+ATOM   1765  CA  GLY B  90      46.297  50.517 151.380  1.00 23.90           C  
+ATOM   1766  C   GLY B  90      46.321  50.062 152.835  1.00 27.95           C  
+ATOM   1767  O   GLY B  90      47.322  49.544 153.366  1.00 28.20           O  
+ATOM   1768  N   GLU B  91      45.176  50.262 153.470  1.00 25.08           N  
+ATOM   1769  CA  GLU B  91      44.982  49.953 154.893  1.00 26.41           C  

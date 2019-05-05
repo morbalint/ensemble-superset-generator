@@ -1,0 +1,18 @@
+REMARK PDB ID 1abr residue_number 114 chain B residue_name A phi 113.3 psi 86.0 secondary_structure  
+REMARK PDB ID 1abr residue_number 115 chain B residue_name E phi -71.4 psi -20.6 secondary_structure  
+REMARK PDB ID 1abr residue_number 116 chain B residue_name S phi 106.3 psi 130.6 secondary_structure  
+ATOM   3555  CA  ALA B 114      52.794  43.006  21.619  1.00 13.31           C  
+ATOM   3556  C   ALA B 114      51.344  43.475  21.621  1.00 17.01           C  
+ATOM   3557  O   ALA B 114      50.414  42.669  21.712  1.00 19.57           O  
+ATOM   3560  N   GLU B 115      51.147  44.780  21.522  1.00 17.56           N  
+ATOM   3561  CA  GLU B 115      49.803  45.334  21.560  1.00 18.25           C  
+ATOM   3562  C   GLU B 115      48.967  45.067  20.337  1.00 18.11           C  
+ATOM   3563  O   GLU B 115      47.724  45.108  20.398  1.00 19.75           O  
+ATOM   3564  CB  GLU B 115      49.840  46.834  21.867  1.00 19.57           C  
+ATOM   3565  CG  GLU B 115      50.111  47.172  23.341  1.00 19.02           C  
+ATOM   3566  CD  GLU B 115      48.989  46.746  24.267  1.00 18.62           C  
+ATOM   3567  OE1 GLU B 115      47.806  46.878  23.902  1.00 29.59           O  
+ATOM   3568  OE2 GLU B 115      49.277  46.282  25.381  1.00 22.90           O  
+ATOM   3569  H   GLU B 115      51.917  45.387  21.411  1.00 20.00           H  
+ATOM   3570  N   SER B 116      49.623  44.757  19.231  1.00 20.46           N  
+ATOM   3571  CA  SER B 116      48.888  44.491  17.992  1.00 22.69           C  

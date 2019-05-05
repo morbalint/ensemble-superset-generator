@@ -1,0 +1,19 @@
+REMARK PDB ID 1am2 residue_number 109 chain A residue_name A phi -70.0 psi -3.3 secondary_structure G
+REMARK PDB ID 1am2 residue_number 110 chain A residue_name F phi 123.8 psi 142.7 secondary_structure  
+REMARK PDB ID 1am2 residue_number 111 chain A residue_name S phi 139.3 psi 360.0 secondary_structure  
+ATOM    822  CA  ALA A 109      -9.227  35.995  39.085  1.00 30.71           C  
+ATOM    823  C   ALA A 109      -8.867  37.414  39.500  1.00 37.63           C  
+ATOM    824  O   ALA A 109      -7.913  37.978  38.972  1.00 42.65           O  
+ATOM    826  N   PHE A 110      -9.661  38.017  40.380  1.00 41.88           N  
+ATOM    827  CA  PHE A 110      -9.424  39.374  40.848  1.00 47.16           C  
+ATOM    828  C   PHE A 110      -9.327  39.348  42.383  1.00 56.40           C  
+ATOM    829  O   PHE A 110     -10.027  38.549  43.034  1.00 59.23           O  
+ATOM    830  CB  PHE A 110     -10.578  40.266  40.373  1.00 42.97           C  
+ATOM    831  CG  PHE A 110     -10.788  40.238  38.883  1.00 40.23           C  
+ATOM    832  CD1 PHE A 110      -9.869  40.819  38.024  1.00 43.29           C  
+ATOM    833  CD2 PHE A 110     -11.844  39.550  38.334  1.00 41.14           C  
+ATOM    834  CE1 PHE A 110      -9.992  40.705  36.626  1.00 42.12           C  
+ATOM    835  CE2 PHE A 110     -11.980  39.427  36.936  1.00 43.44           C  
+ATOM    836  CZ  PHE A 110     -11.046  40.006  36.083  1.00 42.05           C  
+ATOM    837  N   SER A 111      -8.436  40.163  42.963  1.00 66.19           N  
+ATOM    838  CA  SER A 111      -8.280  40.211  44.444  1.00 74.56           C  

@@ -1,0 +1,13 @@
+REMARK PDB ID 1ah7 residue_number 129 chain A residue_name A phi -90.0 psi 1.4 secondary_structure T
+REMARK PDB ID 1ah7 residue_number 130 chain A residue_name A phi 128.3 psi 11.0 secondary_structure T
+REMARK PDB ID 1ah7 residue_number 131 chain A residue_name N phi 54.7 psi 41.7 secondary_structure T
+ATOM   1071  CA  ALA A 129      38.379  33.248  10.891  1.00 10.80           C  
+ATOM   1072  C   ALA A 129      37.914  34.492  10.138  1.00 12.06           C  
+ATOM   1073  O   ALA A 129      37.319  35.363  10.764  1.00 13.29           O  
+ATOM   1075  N   ALA A 130      38.167  34.555   8.838  1.00 12.24           N  
+ATOM   1076  CA  ALA A 130      37.758  35.713   8.040  1.00 12.84           C  
+ATOM   1077  C   ALA A 130      36.977  35.325   6.809  1.00 14.01           C  
+ATOM   1078  O   ALA A 130      36.814  36.133   5.874  1.00 13.20           O  
+ATOM   1079  CB  ALA A 130      38.985  36.536   7.632  1.00 14.31           C  
+ATOM   1080  N   ASN A 131      36.559  34.063   6.698  1.00 12.05           N  
+ATOM   1081  CA  ASN A 131      35.829  33.586   5.524  1.00 12.45           C  

@@ -1,0 +1,13 @@
+REMARK PDB ID 1atg residue_number 172 chain A residue_name A phi -50.7 psi -37.4 secondary_structure T
+REMARK PDB ID 1atg residue_number 173 chain A residue_name A phi -84.8 psi -4.7 secondary_structure T
+REMARK PDB ID 1atg residue_number 174 chain A residue_name A phi 93.2 psi 11.4 secondary_structure S
+ATOM   1281  CA  ALA A 172       3.785  39.281  29.782  1.00 25.82           C  
+ATOM   1282  C   ALA A 172       4.348  39.447  31.185  1.00 27.22           C  
+ATOM   1283  O   ALA A 172       5.487  39.893  31.344  1.00 29.37           O  
+ATOM   1285  N   ALA A 173       3.583  39.089  32.212  1.00 27.77           N  
+ATOM   1286  CA  ALA A 173       4.033  39.168  33.591  1.00 28.02           C  
+ATOM   1287  C   ALA A 173       4.820  37.941  34.022  1.00 27.58           C  
+ATOM   1288  O   ALA A 173       5.331  37.885  35.141  1.00 29.66           O  
+ATOM   1289  CB  ALA A 173       2.841  39.374  34.518  1.00 28.89           C  
+ATOM   1290  N   ALA A 174       4.928  36.928  33.175  1.00 26.47           N  
+ATOM   1291  CA  ALA A 174       5.662  35.706  33.426  1.00 25.46           C  

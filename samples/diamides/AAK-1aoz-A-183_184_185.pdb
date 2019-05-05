@@ -1,0 +1,13 @@
+REMARK PDB ID 1aoz residue_number 183 chain A residue_name A phi 114.1 psi 31.1 secondary_structure T
+REMARK PDB ID 1aoz residue_number 184 chain A residue_name A phi -69.2 psi -5.2 secondary_structure G
+REMARK PDB ID 1aoz residue_number 185 chain A residue_name K phi -77.1 psi -9.8 secondary_structure G
+ATOM   1454  CA  ALA A 183      56.720  26.465  28.883  1.00 21.54           C  
+ATOM   1455  C   ALA A 183      56.114  25.979  30.198  1.00 24.54           C  
+ATOM   1456  O   ALA A 183      55.195  26.585  30.753  1.00 29.15           O  
+ATOM   1458  N   ALA A 184      56.641  24.897  30.771  1.00 25.37           N  
+ATOM   1459  CA  ALA A 184      56.152  24.369  32.035  1.00 18.74           C  
+ATOM   1460  C   ALA A 184      56.432  25.227  33.260  1.00 18.88           C  
+ATOM   1461  O   ALA A 184      55.882  24.951  34.317  1.00 21.29           O  
+ATOM   1462  CB  ALA A 184      56.741  22.985  32.295  1.00 17.21           C  
+ATOM   1463  N   LYS A 185      57.171  26.338  33.197  1.00 20.91           N  
+ATOM   1464  CA  LYS A 185      57.440  27.100  34.407  1.00 22.68           C  

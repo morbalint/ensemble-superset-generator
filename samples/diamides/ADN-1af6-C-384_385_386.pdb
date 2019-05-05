@@ -1,0 +1,16 @@
+REMARK PDB ID 1af6 residue_number 384 chain C residue_name A phi -62.5 psi -24.0 secondary_structure T
+REMARK PDB ID 1af6 residue_number 385 chain C residue_name D phi -76.1 psi -40.4 secondary_structure T
+REMARK PDB ID 1af6 residue_number 386 chain C residue_name N phi -79.7 psi -33.4 secondary_structure T
+ATOM   9758  CA  ALA C 384      -7.845  15.877 111.594  1.00 57.28           C  
+ATOM   9759  C   ALA C 384      -7.348  15.775 113.023  1.00 61.97           C  
+ATOM   9760  O   ALA C 384      -7.044  14.658 113.461  1.00 67.17           O  
+ATOM   9762  N   ASP C 385      -7.253  16.871 113.760  1.00 69.02           N  
+ATOM   9763  CA  ASP C 385      -6.865  16.853 115.162  1.00 67.25           C  
+ATOM   9764  C   ASP C 385      -7.982  16.381 116.087  1.00 67.09           C  
+ATOM   9765  O   ASP C 385      -7.706  15.645 117.036  1.00 71.79           O  
+ATOM   9766  CB  ASP C 385      -6.381  18.238 115.598  1.00 80.78           C  
+ATOM   9767  CG  ASP C 385      -5.722  18.239 116.959  1.00 77.45           C  
+ATOM   9768  OD1 ASP C 385      -5.120  17.224 117.356  1.00 83.97           O  
+ATOM   9769  OD2 ASP C 385      -5.805  19.276 117.647  1.00 98.09           O  
+ATOM   9770  N   ASN C 386      -9.223  16.783 115.859  1.00 67.58           N  
+ATOM   9771  CA  ASN C 386     -10.356  16.391 116.670  1.00 70.00           C  

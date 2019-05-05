@@ -1,0 +1,16 @@
+REMARK PDB ID 1a6j residue_number 114 chain B residue_name A phi -46.1 psi -44.1 secondary_structure G
+REMARK PDB ID 1a6j residue_number 115 chain B residue_name D phi -72.2 psi -3.9 secondary_structure G
+REMARK PDB ID 1a6j residue_number 116 chain B residue_name Q phi 119.5 psi 22.8 secondary_structure G
+ATOM   2033  CA  ALA B 114      12.428  26.844   3.115  1.00 18.99           C  
+ATOM   2034  C   ALA B 114      13.150  26.108   1.993  1.00 22.40           C  
+ATOM   2035  O   ALA B 114      14.242  25.567   2.184  1.00 24.09           O  
+ATOM   2037  N   ASP B 115      12.536  26.100   0.819  1.00 23.61           N  
+ATOM   2038  CA  ASP B 115      13.095  25.438  -0.346  1.00 24.71           C  
+ATOM   2039  C   ASP B 115      14.304  26.141  -0.968  1.00 27.66           C  
+ATOM   2040  O   ASP B 115      14.879  25.629  -1.921  1.00 30.67           O  
+ATOM   2041  CB  ASP B 115      12.007  25.269  -1.407  1.00 27.46           C  
+ATOM   2042  CG  ASP B 115      11.558  26.590  -2.003  1.00 32.58           C  
+ATOM   2043  OD1 ASP B 115      11.324  27.557  -1.244  1.00 35.79           O  
+ATOM   2044  OD2 ASP B 115      11.432  26.661  -3.242  1.00 37.95           O  
+ATOM   2045  N   GLN B 116      14.680  27.309  -0.453  1.00 27.38           N  
+ATOM   2046  CA  GLN B 116      15.818  28.058  -0.995  1.00 29.20           C  

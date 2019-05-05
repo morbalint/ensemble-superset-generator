@@ -1,0 +1,16 @@
+REMARK PDB ID 1a0s residue_number 367 chain Q residue_name A phi 126.3 psi 137.5 secondary_structure S
+REMARK PDB ID 1a0s residue_number 368 chain Q residue_name D phi -52.3 psi 126.3 secondary_structure T
+REMARK PDB ID 1a0s residue_number 369 chain Q residue_name G phi 80.5 psi 6.3 secondary_structure T
+ATOM   5451  CA  ALA Q 367      -7.730  -9.998 -38.768  1.00 27.33           C  
+ATOM   5452  C   ALA Q 367      -6.347 -10.643 -38.676  1.00 28.91           C  
+ATOM   5453  O   ALA Q 367      -5.522 -10.254 -37.854  1.00 28.68           O  
+ATOM   5455  N   ASP Q 368      -6.105 -11.631 -39.530  1.00 28.89           N  
+ATOM   5456  CA  ASP Q 368      -4.838 -12.337 -39.599  1.00 28.76           C  
+ATOM   5457  C   ASP Q 368      -3.699 -11.313 -39.738  1.00 27.38           C  
+ATOM   5458  O   ASP Q 368      -3.747 -10.419 -40.593  1.00 27.21           O  
+ATOM   5459  CB  ASP Q 368      -4.868 -13.259 -40.822  1.00 32.99           C  
+ATOM   5460  CG  ASP Q 368      -3.899 -14.427 -40.723  1.00 37.94           C  
+ATOM   5461  OD1 ASP Q 368      -2.946 -14.395 -39.909  1.00 37.97           O  
+ATOM   5462  OD2 ASP Q 368      -4.107 -15.404 -41.477  1.00 41.31           O  
+ATOM   5463  N   GLY Q 369      -2.714 -11.402 -38.848  1.00 25.13           N  
+ATOM   5464  CA  GLY Q 369      -1.590 -10.491 -38.899  1.00 22.43           C  

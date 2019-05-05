@@ -1,0 +1,16 @@
+REMARK PDB ID 1am2 residue_number 185 chain A residue_name A phi -66.4 psi -29.5 secondary_structure S
+REMARK PDB ID 1am2 residue_number 186 chain A residue_name D phi -76.3 psi -36.3 secondary_structure S
+REMARK PDB ID 1am2 residue_number 187 chain A residue_name H phi 60.8 psi 40.7 secondary_structure  
+ATOM   1267  CA  ALA A 185     -11.905  16.796  31.641  1.00 30.99           C  
+ATOM   1268  C   ALA A 185     -12.449  18.011  30.927  1.00 29.17           C  
+ATOM   1269  O   ALA A 185     -12.810  17.962  29.768  1.00 32.66           O  
+ATOM   1271  N   ASP A 186     -12.568  19.084  31.682  1.00 28.65           N  
+ATOM   1272  CA  ASP A 186     -13.081  20.358  31.209  1.00 24.79           C  
+ATOM   1273  C   ASP A 186     -12.035  21.109  30.367  1.00 24.04           C  
+ATOM   1274  O   ASP A 186     -12.382  21.730  29.362  1.00 22.16           O  
+ATOM   1275  CB  ASP A 186     -13.470  21.169  32.442  1.00 24.72           C  
+ATOM   1276  CG  ASP A 186     -14.213  22.426  32.108  1.00 28.39           C  
+ATOM   1277  OD1 ASP A 186     -14.816  22.486  31.011  1.00 35.64           O  
+ATOM   1278  OD2 ASP A 186     -14.198  23.358  32.940  1.00 28.72           O  
+ATOM   1279  N   HIS A 187     -10.758  20.991  30.758  1.00 23.89           N  
+ATOM   1280  CA  HIS A 187      -9.628  21.651  30.078  1.00 23.16           C  

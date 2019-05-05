@@ -1,0 +1,13 @@
+REMARK PDB ID 1aoz residue_number 332 chain A residue_name A phi -68.2 psi 145.3 secondary_structure B
+REMARK PDB ID 1aoz residue_number 333 chain A residue_name A phi -59.5 psi 143.3 secondary_structure  
+REMARK PDB ID 1aoz residue_number 334 chain A residue_name M phi -53.9 psi 119.6 secondary_structure T
+ATOM   2627  CA  ALA A 332      43.178  41.493  -3.186  1.00 17.83           C  
+ATOM   2628  C   ALA A 332      43.866  42.836  -3.023  1.00 13.70           C  
+ATOM   2629  O   ALA A 332      43.262  43.865  -2.706  1.00 19.50           O  
+ATOM   2631  N   ALA A 333      45.175  42.786  -3.170  1.00 13.94           N  
+ATOM   2632  CA  ALA A 333      45.983  43.982  -3.135  1.00 20.81           C  
+ATOM   2633  C   ALA A 333      45.512  44.896  -4.243  1.00 18.18           C  
+ATOM   2634  O   ALA A 333      45.067  44.457  -5.308  1.00 25.36           O  
+ATOM   2635  CB  ALA A 333      47.449  43.644  -3.377  1.00 16.44           C  
+ATOM   2636  N   MET A 334      45.530  46.182  -3.955  1.00 23.91           N  
+ATOM   2637  CA  MET A 334      45.202  47.197  -4.931  1.00 25.64           C  

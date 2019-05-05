@@ -1,0 +1,12 @@
+REMARK PDB ID 1atz residue_number 1080 chain B residue_name A phi -76.9 psi -21.5 secondary_structure G
+REMARK PDB ID 1atz residue_number 1081 chain B residue_name G phi 51.1 psi -147.6 secondary_structure G
+REMARK PDB ID 1atz residue_number 1082 chain B residue_name D phi -65.2 psi -5.0 secondary_structure G
+ATOM   2564  CA  ALA B1080      30.008  52.320  42.972  1.00 35.22           C  
+ATOM   2565  C   ALA B1080      29.143  52.222  44.234  1.00 35.92           C  
+ATOM   2566  O   ALA B1080      27.913  52.193  44.154  1.00 37.14           O  
+ATOM   2568  N   GLY B1081      29.783  52.136  45.392  1.00 35.39           N  
+ATOM   2569  CA  GLY B1081      29.050  52.047  46.640  1.00 35.15           C  
+ATOM   2570  C   GLY B1081      27.989  50.967  46.645  1.00 34.75           C  
+ATOM   2571  O   GLY B1081      28.111  49.960  45.946  1.00 32.79           O  
+ATOM   2572  N   ASP B1082      26.905  51.218  47.370  1.00 35.46           N  
+ATOM   2573  CA  ASP B1082      25.823  50.249  47.477  1.00 36.47           C  

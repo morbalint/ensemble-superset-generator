@@ -1,0 +1,17 @@
+REMARK PDB ID 1alu residue_number 68 chain A residue_name A phi 130.8 psi 166.4 secondary_structure  
+REMARK PDB ID 1alu residue_number 69 chain A residue_name E phi -57.0 psi -30.8 secondary_structure G
+REMARK PDB ID 1alu residue_number 70 chain A residue_name K phi -69.2 psi -21.3 secondary_structure G
+ATOM    326  CA  ALA A  68     -12.495 -22.442  12.142  1.00 27.85           C  
+ATOM    327  C   ALA A  68     -13.526 -21.346  12.317  1.00 29.00           C  
+ATOM    328  O   ALA A  68     -13.212 -20.216  12.738  1.00 26.50           O  
+ATOM    330  N   GLU A  69     -14.795 -21.714  12.052  1.00 30.63           N  
+ATOM    331  CA  GLU A  69     -15.840 -20.688  12.148  1.00 31.48           C  
+ATOM    332  C   GLU A  69     -15.879 -20.044  13.508  1.00 29.83           C  
+ATOM    333  O   GLU A  69     -16.114 -18.824  13.593  1.00 29.71           O  
+ATOM    334  CB  GLU A  69     -17.201 -21.255  11.723  1.00 37.14           C  
+ATOM    335  CG  GLU A  69     -18.293 -20.186  11.834  1.00 44.97           C  
+ATOM    336  CD  GLU A  69     -19.644 -20.737  12.249  1.00 47.76           C  
+ATOM    337  OE1 GLU A  69     -19.912 -20.921  13.459  1.00 50.23           O  
+ATOM    338  OE2 GLU A  69     -20.463 -20.964  11.333  1.00 50.49           O  
+ATOM    339  N   LYS A  70     -15.531 -20.744  14.577  1.00 30.61           N  
+ATOM    340  CA  LYS A  70     -15.564 -20.229  15.931  1.00 30.43           C  

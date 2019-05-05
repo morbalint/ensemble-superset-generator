@@ -1,0 +1,19 @@
+REMARK PDB ID 1afw residue_number 53 chain A residue_name A phi -40.9 psi -43.3 secondary_structure T
+REMARK PDB ID 1afw residue_number 54 chain A residue_name F phi 101.7 psi 13.7 secondary_structure T
+REMARK PDB ID 1afw residue_number 55 chain A residue_name K phi -53.7 psi -25.1 secondary_structure T
+ATOM    212  CA  ALA A  53      73.226  15.439  80.360  1.00 18.73           C  
+ATOM    213  C   ALA A  53      71.989  16.081  79.840  1.00 31.06           C  
+ATOM    214  O   ALA A  53      72.064  16.966  78.968  1.00 25.76           O  
+ATOM    216  N   PHE A  54      70.859  15.631  80.349  1.00 27.59           N  
+ATOM    217  CA  PHE A  54      69.626  16.183  79.857  1.00 22.98           C  
+ATOM    218  C   PHE A  54      68.974  17.232  80.774  1.00 20.64           C  
+ATOM    219  O   PHE A  54      67.806  17.598  80.596  1.00 18.41           O  
+ATOM    220  CB  PHE A  54      68.738  14.983  79.641  1.00 21.46           C  
+ATOM    221  CG  PHE A  54      69.276  13.983  78.662  1.00 16.62           C  
+ATOM    222  CD1 PHE A  54      69.772  14.377  77.438  1.00 11.85           C  
+ATOM    223  CD2 PHE A  54      69.175  12.631  78.938  1.00 14.65           C  
+ATOM    224  CE1 PHE A  54      70.209  13.466  76.534  1.00 13.51           C  
+ATOM    225  CE2 PHE A  54      69.577  11.676  78.017  1.00 14.56           C  
+ATOM    226  CZ  PHE A  54      70.087  12.084  76.823  1.00 19.05           C  
+ATOM    227  N   LYS A  55      69.691  17.748  81.768  1.00 14.51           N  
+ATOM    228  CA  LYS A  55      69.029  18.716  82.638  1.00 15.04           C  

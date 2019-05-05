@@ -1,0 +1,17 @@
+REMARK PDB ID 1a0s residue_number 319 chain P residue_name A phi -69.9 psi -10.6 secondary_structure G
+REMARK PDB ID 1a0s residue_number 320 chain P residue_name E phi -96.3 psi 97.1 secondary_structure S
+REMARK PDB ID 1a0s residue_number 321 chain P residue_name V phi -72.6 psi -13.3 secondary_structure  
+ATOM   1886  CA  ALA P 319     -63.683 -17.827 -24.552  1.00 23.14           C  
+ATOM   1887  C   ALA P 319     -62.204 -18.133 -24.223  1.00 22.75           C  
+ATOM   1888  O   ALA P 319     -61.745 -19.279 -24.374  1.00 22.46           O  
+ATOM   1890  N   GLU P 320     -61.445 -17.097 -23.858  1.00 22.78           N  
+ATOM   1891  CA  GLU P 320     -60.066 -17.297 -23.389  1.00 21.63           C  
+ATOM   1892  C   GLU P 320     -60.320 -17.298 -21.873  1.00 22.03           C  
+ATOM   1893  O   GLU P 320     -60.497 -16.232 -21.259  1.00 21.85           O  
+ATOM   1894  CB  GLU P 320     -59.158 -16.120 -23.756  1.00 22.60           C  
+ATOM   1895  CG  GLU P 320     -57.847 -16.072 -22.952  1.00 22.13           C  
+ATOM   1896  CD  GLU P 320     -57.210 -17.452 -22.698  1.00 24.98           C  
+ATOM   1897  OE1 GLU P 320     -57.186 -18.300 -23.616  1.00 25.45           O  
+ATOM   1898  OE2 GLU P 320     -56.728 -17.693 -21.562  1.00 24.48           O  
+ATOM   1899  N   VAL P 321     -60.432 -18.498 -21.304  1.00 20.49           N  
+ATOM   1900  CA  VAL P 321     -60.753 -18.669 -19.880  1.00 19.40           C  

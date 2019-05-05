@@ -1,0 +1,14 @@
+REMARK PDB ID 1au7 residue_number 111 chain B residue_name A phi 127.7 psi -43.8 secondary_structure T
+REMARK PDB ID 1au7 residue_number 112 chain B residue_name A phi -70.1 psi -48.3 secondary_structure T
+REMARK PDB ID 1au7 residue_number 113 chain B residue_name K phi -57.4 psi -50.2 secondary_structure G
+ATOM   3215  CA  ALA B 111      13.156  39.690  34.945  1.00 44.17           C  
+ATOM   3216  C   ALA B 111      14.128  39.878  33.764  1.00 40.92           C  
+ATOM   3217  O   ALA B 111      13.724  40.148  32.621  1.00 35.57           O  
+ATOM   3220  N   ALA B 112      15.414  39.773  34.079  1.00 37.67           N  
+ATOM   3221  CA  ALA B 112      16.475  39.891  33.105  1.00 38.43           C  
+ATOM   3222  C   ALA B 112      16.442  38.671  32.207  1.00 38.13           C  
+ATOM   3223  O   ALA B 112      16.396  38.810  30.989  1.00 39.53           O  
+ATOM   3224  CB  ALA B 112      17.825  39.988  33.811  1.00 33.88           C  
+ATOM   3225  H   ALA B 112      15.709  39.741  35.009  1.00  0.00           H  
+ATOM   3226  N   LYS B 113      16.365  37.487  32.814  1.00 38.23           N  
+ATOM   3227  CA  LYS B 113      16.369  36.200  32.098  1.00 36.80           C  

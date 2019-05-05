@@ -1,0 +1,12 @@
+REMARK PDB ID 1azt residue_number 48 chain B residue_name A phi -65.1 psi 176.8 secondary_structure  
+REMARK PDB ID 1azt residue_number 49 chain B residue_name G phi -64.1 psi 146.7 secondary_structure T
+REMARK PDB ID 1azt residue_number 50 chain B residue_name E phi 57.8 psi 16.2 secondary_structure T
+ATOM   2871  CA  ALA B  48       9.765  23.131  -7.512  1.00 16.00           C  
+ATOM   2872  C   ALA B  48      10.942  23.960  -8.039  1.00 16.66           C  
+ATOM   2873  O   ALA B  48      11.952  24.135  -7.359  1.00 13.85           O  
+ATOM   2875  N   GLY B  49      10.815  24.436  -9.273  1.00 13.22           N  
+ATOM   2876  CA  GLY B  49      11.841  25.284  -9.838  1.00 15.01           C  
+ATOM   2877  C   GLY B  49      11.958  26.589  -9.071  1.00 18.24           C  
+ATOM   2878  O   GLY B  49      10.969  27.095  -8.542  1.00 18.97           O  
+ATOM   2879  N   GLU B  50      13.179  27.115  -8.991  1.00 15.47           N  
+ATOM   2880  CA  GLU B  50      13.458  28.386  -8.329  1.00 11.95           C  

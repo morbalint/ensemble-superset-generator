@@ -1,0 +1,14 @@
+REMARK PDB ID 1a59 residue_number 90 chain A residue_name A phi 109.8 psi -7.8 secondary_structure T
+REMARK PDB ID 1a59 residue_number 91 chain A residue_name C phi -74.3 psi 166.9 secondary_structure S
+REMARK PDB ID 1a59 residue_number 92 chain A residue_name H phi -72.7 psi 132.8 secondary_structure  
+ATOM    688  CA  ALA A  90     -38.166  37.494  90.014  1.00 15.57           C  
+ATOM    689  C   ALA A  90     -38.064  38.985  90.373  1.00 15.38           C  
+ATOM    690  O   ALA A  90     -37.403  39.748  89.670  1.00 16.50           O  
+ATOM    692  N   CYS A  91     -38.705  39.405  91.463  1.00 14.29           N  
+ATOM    693  CA  CYS A  91     -38.646  40.814  91.859  1.00 13.75           C  
+ATOM    694  C   CYS A  91     -37.274  41.138  92.458  1.00 13.13           C  
+ATOM    695  O   CYS A  91     -36.483  40.233  92.737  1.00 15.03           O  
+ATOM    696  CB  CYS A  91     -39.769  41.157  92.841  1.00 13.49           C  
+ATOM    697  SG  CYS A  91     -39.473  40.669  94.529  1.00 17.63           S  
+ATOM    698  N   HIS A  92     -36.972  42.424  92.616  1.00  9.27           N  
+ATOM    699  CA  HIS A  92     -35.681  42.821  93.162  1.00  8.50           C  

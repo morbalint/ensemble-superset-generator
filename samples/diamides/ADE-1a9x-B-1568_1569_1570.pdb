@@ -1,0 +1,16 @@
+REMARK PDB ID 1a9x residue_number 1568 chain B residue_name A phi -62.5 psi -31.4 secondary_structure G
+REMARK PDB ID 1a9x residue_number 1569 chain B residue_name D phi -78.8 psi 11.4 secondary_structure G
+REMARK PDB ID 1a9x residue_number 1570 chain B residue_name E phi -90.1 psi 128.2 secondary_structure  
+ATOM   8689  CA  ALA B1568       9.557  57.947  90.652  1.00 30.67           C  
+ATOM   8690  C   ALA B1568      10.898  57.485  91.140  1.00 31.28           C  
+ATOM   8691  O   ALA B1568      10.984  56.910  92.213  1.00 18.06           O  
+ATOM   8693  N   ASP B1569      11.947  57.782  90.370  1.00 19.31           N  
+ATOM   8694  CA  ASP B1569      13.260  57.402  90.801  1.00  9.12           C  
+ATOM   8695  C   ASP B1569      13.863  58.314  91.851  1.00 23.06           C  
+ATOM   8696  O   ASP B1569      15.029  58.206  92.146  1.00 22.57           O  
+ATOM   8697  CB  ASP B1569      14.221  57.058  89.661  1.00 19.55           C  
+ATOM   8698  CG  ASP B1569      13.778  55.845  88.871  1.00 40.31           C  
+ATOM   8699  OD1 ASP B1569      12.746  55.210  89.352  1.00 32.69           O  
+ATOM   8700  OD2 ASP B1569      14.296  55.529  87.838  1.00 31.55           O  
+ATOM   8701  N   GLU B1570      13.096  59.219  92.451  1.00 34.94           N  
+ATOM   8702  CA  GLU B1570      13.687  60.065  93.473  1.00 20.29           C  

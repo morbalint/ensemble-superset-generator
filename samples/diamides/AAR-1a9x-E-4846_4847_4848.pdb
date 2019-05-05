@@ -1,0 +1,13 @@
+REMARK PDB ID 1a9x residue_number 4846 chain E residue_name A phi -77.4 psi 130.1 secondary_structure  
+REMARK PDB ID 1a9x residue_number 4847 chain E residue_name A phi -98.6 psi 163.5 secondary_structure  
+REMARK PDB ID 1a9x residue_number 4848 chain E residue_name R phi -65.7 psi -11.1 secondary_structure T
+ATOM  28629  CA  ALA E4846     -16.183  84.244  29.492  1.00 28.09           C  
+ATOM  28630  C   ALA E4846     -15.026  83.483  28.920  1.00 19.40           C  
+ATOM  28631  O   ALA E4846     -14.361  82.804  29.659  1.00 23.04           O  
+ATOM  28633  N   ALA E4847     -14.789  83.668  27.624  1.00 15.20           N  
+ATOM  28634  CA  ALA E4847     -13.687  83.051  26.896  1.00 12.08           C  
+ATOM  28635  C   ALA E4847     -12.504  83.982  26.733  1.00 21.66           C  
+ATOM  28636  O   ALA E4847     -12.564  85.204  26.852  1.00 25.43           O  
+ATOM  28637  CB  ALA E4847     -14.121  82.642  25.505  1.00 19.16           C  
+ATOM  28638  N   ARG E4848     -11.386  83.421  26.403  1.00 20.38           N  
+ATOM  28639  CA  ARG E4848     -10.180  84.231  26.258  1.00 19.05           C  

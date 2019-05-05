@@ -1,0 +1,23 @@
+REMARK PDB ID 1akp residue_number 50 chain A residue_name A phi -79.2 psi -21.5 secondary_structure T
+REMARK PDB ID 1akp residue_number 51 chain A residue_name E phi -82.7 psi 1.6 secondary_structure T
+REMARK PDB ID 1akp residue_number 52 chain A residue_name F phi -69.7 psi 168.8 secondary_structure  
+ATOM    619  CA  ALA A  50       8.393  -0.427  -9.318  1.00  0.00           C  
+ATOM    620  C   ALA A  50       7.000  -0.222  -9.967  1.00  0.00           C  
+ATOM    621  O   ALA A  50       6.951   0.360 -11.039  1.00  0.00           O  
+ATOM    628  N   GLU A  51       5.924  -0.643  -9.286  1.00  0.00           N  
+ATOM    629  CA  GLU A  51       4.478  -0.509  -9.824  1.00  0.00           C  
+ATOM    630  C   GLU A  51       3.836   0.900  -9.582  1.00  0.00           C  
+ATOM    631  O   GLU A  51       2.724   1.156 -10.037  1.00  0.00           O  
+ATOM    632  CB  GLU A  51       3.637  -1.665  -9.118  1.00  0.00           C  
+ATOM    633  CG  GLU A  51       3.803  -3.068  -9.815  1.00  0.00           C  
+ATOM    634  CD  GLU A  51       3.300  -4.173  -8.882  1.00  0.00           C  
+ATOM    635  OE1 GLU A  51       2.095  -4.297  -8.789  1.00  0.00           O  
+ATOM    636  OE2 GLU A  51       4.152  -4.851  -8.340  1.00  0.00           O  
+ATOM    637  H   GLU A  51       6.059  -1.019  -8.389  1.00  0.00           H  
+ATOM    638  HA  GLU A  51       4.467  -0.644 -10.901  1.00  0.00           H  
+ATOM    639  HB2 GLU A  51       3.964  -1.751  -8.094  1.00  0.00           H  
+ATOM    640  HB3 GLU A  51       2.588  -1.423  -9.107  1.00  0.00           H  
+ATOM    641  HG2 GLU A  51       3.213  -3.117 -10.723  1.00  0.00           H  
+ATOM    642  HG3 GLU A  51       4.839  -3.282 -10.046  1.00  0.00           H  
+ATOM    643  N   PHE A  52       4.605   1.807  -8.985  1.00  0.00           N  
+ATOM    644  CA  PHE A  52       4.134   3.233  -8.675  1.00  0.00           C  

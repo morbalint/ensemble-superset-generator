@@ -1,0 +1,28 @@
+REMARK PDB ID 1auu residue_number 29 chain A residue_name A phi -59.4 psi -37.9 secondary_structure S
+REMARK PDB ID 1auu residue_number 30 chain A residue_name F phi -71.2 psi 143.6 secondary_structure T
+REMARK PDB ID 1auu residue_number 31 chain A residue_name N phi 71.6 psi 26.6 secondary_structure T
+ATOM    469  CA  ALA A  29     -16.884   5.308   1.066  1.00  0.00           C  
+ATOM    470  C   ALA A  29     -18.160   5.829   0.401  1.00  0.00           C  
+ATOM    471  O   ALA A  29     -18.120   6.747  -0.399  1.00  0.00           O  
+ATOM    478  N   PHE A  30     -19.296   5.265   0.753  1.00  0.00           N  
+ATOM    479  CA  PHE A  30     -20.583   5.735   0.177  1.00  0.00           C  
+ATOM    480  C   PHE A  30     -20.901   7.112   0.765  1.00  0.00           C  
+ATOM    481  O   PHE A  30     -20.622   7.379   1.922  1.00  0.00           O  
+ATOM    482  CB  PHE A  30     -21.701   4.748   0.537  1.00  0.00           C  
+ATOM    483  CG  PHE A  30     -22.965   5.113  -0.207  1.00  0.00           C  
+ATOM    484  CD1 PHE A  30     -23.135   4.713  -1.538  1.00  0.00           C  
+ATOM    485  CD2 PHE A  30     -23.965   5.854   0.435  1.00  0.00           C  
+ATOM    486  CE1 PHE A  30     -24.305   5.053  -2.227  1.00  0.00           C  
+ATOM    487  CE2 PHE A  30     -25.135   6.193  -0.255  1.00  0.00           C  
+ATOM    488  CZ  PHE A  30     -25.305   5.793  -1.585  1.00  0.00           C  
+ATOM    489  H   PHE A  30     -19.301   4.545   1.415  1.00  0.00           H  
+ATOM    490  HA  PHE A  30     -20.493   5.809  -0.896  1.00  0.00           H  
+ATOM    491  HB2 PHE A  30     -21.399   3.748   0.264  1.00  0.00           H  
+ATOM    492  HB3 PHE A  30     -21.887   4.788   1.600  1.00  0.00           H  
+ATOM    493  HD1 PHE A  30     -22.363   4.142  -2.034  1.00  0.00           H  
+ATOM    494  HD2 PHE A  30     -23.833   6.163   1.461  1.00  0.00           H  
+ATOM    495  HE1 PHE A  30     -24.437   4.744  -3.254  1.00  0.00           H  
+ATOM    496  HE2 PHE A  30     -25.906   6.765   0.240  1.00  0.00           H  
+ATOM    497  HZ  PHE A  30     -26.208   6.056  -2.116  1.00  0.00           H  
+ATOM    498  N   ASN A  31     -21.473   7.985  -0.025  1.00  0.00           N  
+ATOM    499  CA  ASN A  31     -21.816   9.359   0.462  1.00  0.00           C  

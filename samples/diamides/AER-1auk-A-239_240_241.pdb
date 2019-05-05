@@ -1,0 +1,17 @@
+REMARK PDB ID 1auk residue_number 239 chain A residue_name A phi -64.5 psi 125.0 secondary_structure T
+REMARK PDB ID 1auk residue_number 240 chain A residue_name E phi 59.7 psi 25.0 secondary_structure T
+REMARK PDB ID 1auk residue_number 241 chain A residue_name R phi 109.3 psi -24.8 secondary_structure T
+ATOM   1668  CA  ALA A 239      44.878  28.059 -21.783  1.00 52.54           C  
+ATOM   1669  C   ALA A 239      45.698  27.223 -20.814  1.00 56.08           C  
+ATOM   1670  O   ALA A 239      46.929  27.267 -20.864  1.00 55.25           O  
+ATOM   1672  N   GLU A 240      45.012  26.541 -19.896  1.00 56.53           N  
+ATOM   1673  CA  GLU A 240      45.626  25.697 -18.897  1.00 56.85           C  
+ATOM   1674  C   GLU A 240      46.602  26.385 -17.953  1.00 53.89           C  
+ATOM   1675  O   GLU A 240      47.477  25.721 -17.389  1.00 55.52           O  
+ATOM   1676  CB  GLU A 240      46.354  24.519 -19.559  1.00 63.22           C  
+ATOM   1677  CG  GLU A 240      45.539  23.224 -19.450  1.00 72.23           C  
+ATOM   1678  CD  GLU A 240      45.488  22.568 -20.818  1.00 76.62           C  
+ATOM   1679  OE1 GLU A 240      44.950  23.235 -21.728  1.00 80.78           O  
+ATOM   1680  OE2 GLU A 240      45.994  21.432 -20.955  1.00 79.51           O  
+ATOM   1681  N   ARG A 241      46.483  27.681 -17.733  1.00 51.69           N  
+ATOM   1682  CA  ARG A 241      47.414  28.414 -16.890  1.00 50.63           C  

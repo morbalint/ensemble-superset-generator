@@ -1,0 +1,17 @@
+REMARK PDB ID 1a9x residue_number 2534 chain C residue_name A phi 68.3 psi 16.8 secondary_structure T
+REMARK PDB ID 1a9x residue_number 2535 chain C residue_name E phi -68.3 psi -26.5 secondary_structure S
+REMARK PDB ID 1a9x residue_number 2536 chain C residue_name F phi 128.0 psi 151.0 secondary_structure S
+ATOM  15213  CA  ALA C2534      24.830  21.183 -69.534  1.00 15.15           C  
+ATOM  15214  C   ALA C2534      24.290  21.016 -70.962  1.00 31.68           C  
+ATOM  15215  O   ALA C2534      24.972  20.421 -71.799  1.00 20.30           O  
+ATOM  15217  N   GLU C2535      23.083  21.554 -71.248  1.00 23.82           N  
+ATOM  15218  CA  GLU C2535      22.532  21.483 -72.576  1.00 15.38           C  
+ATOM  15219  C   GLU C2535      23.345  22.341 -73.505  1.00 26.16           C  
+ATOM  15220  O   GLU C2535      23.438  22.044 -74.685  1.00 35.35           O  
+ATOM  15221  CB  GLU C2535      21.029  21.744 -72.663  1.00  9.71           C  
+ATOM  15222  CG  GLU C2535      20.533  21.656 -74.097  1.00 10.73           C  
+ATOM  15223  CD  GLU C2535      19.046  21.800 -74.140  1.00 12.72           C  
+ATOM  15224  OE1 GLU C2535      18.564  22.228 -72.975  1.00 20.76           O  
+ATOM  15225  OE2 GLU C2535      18.361  21.557 -75.131  1.00 28.29           O  
+ATOM  15226  N   PHE C2536      23.998  23.379 -72.945  1.00 31.87           N  
+ATOM  15227  CA  PHE C2536      24.889  24.292 -73.687  1.00 13.94           C  

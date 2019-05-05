@@ -1,0 +1,16 @@
+REMARK PDB ID 1a9x residue_number 7568 chain H residue_name A phi -63.3 psi -23.4 secondary_structure G
+REMARK PDB ID 1a9x residue_number 7569 chain H residue_name D phi -93.6 psi 24.5 secondary_structure G
+REMARK PDB ID 1a9x residue_number 7570 chain H residue_name E phi 101.8 psi 120.0 secondary_structure  
+ATOM  41947  CA  ALA H7568      20.984 -23.414 -45.442  1.00 25.79           C  
+ATOM  41948  C   ALA H7568      19.757 -24.200 -45.016  1.00 33.67           C  
+ATOM  41949  O   ALA H7568      19.856 -25.420 -44.800  1.00 33.27           O  
+ATOM  41951  N   ASP H7569      18.594 -23.545 -44.911  1.00 20.30           N  
+ATOM  41952  CA  ASP H7569      17.375 -24.261 -44.535  1.00 22.96           C  
+ATOM  41953  C   ASP H7569      16.545 -24.747 -45.736  1.00 37.01           C  
+ATOM  41954  O   ASP H7569      15.336 -24.965 -45.629  1.00 27.88           O  
+ATOM  41955  CB  ASP H7569      16.501 -23.705 -43.376  1.00 19.62           C  
+ATOM  41956  CG  ASP H7569      17.301 -23.204 -42.212  1.00 73.84           C  
+ATOM  41957  OD1 ASP H7569      18.457 -23.830 -42.077  1.00 35.32           O  
+ATOM  41958  OD2 ASP H7569      16.903 -22.287 -41.495  1.00 41.30           O  
+ATOM  41959  N   GLU H7570      17.217 -24.929 -46.875  1.00 32.90           N  
+ATOM  41960  CA  GLU H7570      16.588 -25.428 -48.082  1.00 23.42           C  

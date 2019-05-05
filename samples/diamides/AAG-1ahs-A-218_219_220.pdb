@@ -1,0 +1,13 @@
+REMARK PDB ID 1ahs residue_number 218 chain A residue_name A phi -76.8 psi 147.7 secondary_structure  
+REMARK PDB ID 1ahs residue_number 219 chain A residue_name A phi -60.2 psi 129.4 secondary_structure T
+REMARK PDB ID 1ahs residue_number 220 chain A residue_name G phi 93.5 psi -17.7 secondary_structure T
+ATOM    688  CA  ALA A 218      62.528  31.507  11.280  1.00 33.54           C  
+ATOM    689  C   ALA A 218      61.600  30.914  12.349  1.00 35.52           C  
+ATOM    690  O   ALA A 218      60.652  30.165  12.045  1.00 36.75           O  
+ATOM    692  N   ALA A 219      61.876  31.264  13.602  1.00 35.05           N  
+ATOM    693  CA  ALA A 219      61.082  30.798  14.722  1.00 28.02           C  
+ATOM    694  C   ALA A 219      59.655  31.254  14.561  1.00 27.16           C  
+ATOM    695  O   ALA A 219      59.391  32.428  14.273  1.00 29.58           O  
+ATOM    696  CB  ALA A 219      61.651  31.327  15.988  1.00 26.41           C  
+ATOM    697  N   GLY A 220      58.736  30.312  14.690  1.00 29.06           N  
+ATOM    698  CA  GLY A 220      57.347  30.652  14.571  1.00 26.74           C  

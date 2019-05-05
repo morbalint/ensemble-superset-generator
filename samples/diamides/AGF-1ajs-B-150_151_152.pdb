@@ -1,0 +1,12 @@
+REMARK PDB ID 1ajs residue_number 150 chain B residue_name A phi -69.4 psi -10.0 secondary_structure T
+REMARK PDB ID 1ajs residue_number 151 chain B residue_name G phi 112.9 psi -8.2 secondary_structure T
+REMARK PDB ID 1ajs residue_number 152 chain B residue_name F phi -64.6 psi 126.3 secondary_structure  
+ATOM   4432  CA  ALA B 150     -46.418 -26.532 -20.999  1.00 13.32           C  
+ATOM   4433  C   ALA B 150     -46.536 -27.054 -22.426  1.00 16.73           C  
+ATOM   4434  O   ALA B 150     -46.871 -28.251 -22.608  1.00 20.28           O  
+ATOM   4436  N   GLY B 151     -46.273 -26.248 -23.461  1.00 14.21           N  
+ATOM   4437  CA  GLY B 151     -46.319 -26.739 -24.841  1.00 15.44           C  
+ATOM   4438  C   GLY B 151     -47.396 -26.208 -25.754  1.00 16.74           C  
+ATOM   4439  O   GLY B 151     -47.395 -26.430 -26.998  1.00 18.24           O  
+ATOM   4440  N   PHE B 152     -48.324 -25.462 -25.193  1.00 15.05           N  
+ATOM   4441  CA  PHE B 152     -49.429 -24.862 -25.963  1.00 14.75           C  

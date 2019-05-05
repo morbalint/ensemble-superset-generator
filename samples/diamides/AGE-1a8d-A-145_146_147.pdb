@@ -1,0 +1,12 @@
+REMARK PDB ID 1a8d residue_number 145 chain A residue_name A phi 107.6 psi 5.7 secondary_structure T
+REMARK PDB ID 1a8d residue_number 146 chain A residue_name G phi 98.1 psi 3.8 secondary_structure S
+REMARK PDB ID 1a8d residue_number 147 chain A residue_name E phi -77.4 psi 145.8 secondary_structure  
+ATOM   1137  CA  ALA A 145     120.217  44.809  22.015  1.00 35.26           C  
+ATOM   1138  C   ALA A 145     120.002  43.460  22.691  1.00 36.77           C  
+ATOM   1139  O   ALA A 145     120.869  42.791  23.259  1.00 41.16           O  
+ATOM   1141  N   GLY A 146     118.755  42.982  22.632  1.00 37.13           N  
+ATOM   1142  CA  GLY A 146     118.525  41.650  23.164  1.00 37.56           C  
+ATOM   1143  C   GLY A 146     117.977  41.584  24.566  1.00 34.16           C  
+ATOM   1144  O   GLY A 146     117.822  40.486  25.115  1.00 35.38           O  
+ATOM   1145  N   GLU A 147     117.675  42.744  25.171  1.00 27.58           N  
+ATOM   1146  CA  GLU A 147     117.080  42.721  26.501  1.00 24.73           C  

@@ -1,0 +1,17 @@
+REMARK PDB ID 1amu residue_number 33 chain B residue_name A phi 154.8 psi 145.8 secondary_structure  
+REMARK PDB ID 1amu residue_number 34 chain B residue_name E phi -65.8 psi 137.7 secondary_structure  
+REMARK PDB ID 1amu residue_number 35 chain B residue_name Y phi 156.4 psi 157.0 secondary_structure  
+ATOM   4081  CA  ALA B  33       5.366 145.567  50.030  1.00 24.39           C  
+ATOM   4082  C   ALA B  33       5.482 144.198  49.382  1.00 25.72           C  
+ATOM   4083  O   ALA B  33       4.512 143.436  49.351  1.00 25.56           O  
+ATOM   4085  N   GLU B  34       6.657 143.900  48.836  1.00 27.40           N  
+ATOM   4086  CA  GLU B  34       6.899 142.601  48.217  1.00 28.03           C  
+ATOM   4087  C   GLU B  34       6.855 141.493  49.259  1.00 24.64           C  
+ATOM   4088  O   GLU B  34       7.389 141.642  50.356  1.00 24.01           O  
+ATOM   4089  CB  GLU B  34       8.262 142.579  47.505  1.00 33.46           C  
+ATOM   4090  CG  GLU B  34       8.230 143.043  46.049  1.00 44.17           C  
+ATOM   4091  CD  GLU B  34       7.458 142.094  45.124  1.00 51.50           C  
+ATOM   4092  OE1 GLU B  34       7.070 140.984  45.559  1.00 55.32           O  
+ATOM   4093  OE2 GLU B  34       7.244 142.459  43.948  1.00 54.96           O  
+ATOM   4094  N   TYR B  35       6.217 140.384  48.906  1.00 25.29           N  
+ATOM   4095  CA  TYR B  35       6.158 139.211  49.773  1.00 24.50           C  

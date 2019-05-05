@@ -1,0 +1,14 @@
+REMARK PDB ID 1ajs residue_number 190 chain A residue_name A phi -61.0 psi -39.3 secondary_structure S
+REMARK PDB ID 1ajs residue_number 191 chain A residue_name C phi 169.4 psi 165.4 secondary_structure S
+REMARK PDB ID 1ajs residue_number 192 chain A residue_name A phi 50.6 psi 58.5 secondary_structure S
+ATOM   1493  CA  ALA A 190     -21.159 -37.553  -6.916  1.00  7.65           C  
+ATOM   1494  C   ALA A 190     -20.522 -38.509  -5.940  1.00 10.63           C  
+ATOM   1495  O   ALA A 190     -19.285 -38.575  -5.865  1.00 13.92           O  
+ATOM   1497  N   CYS A 191     -21.337 -39.243  -5.199  1.00 10.03           N  
+ATOM   1498  CA  CYS A 191     -20.895 -40.227  -4.197  1.00 11.46           C  
+ATOM   1499  C   CYS A 191     -22.124 -41.039  -3.764  1.00 13.13           C  
+ATOM   1500  O   CYS A 191     -23.240 -40.593  -4.127  1.00 12.41           O  
+ATOM   1501  CB  CYS A 191     -20.210 -39.554  -3.007  1.00  9.66           C  
+ATOM   1502  SG  CYS A 191     -21.344 -38.694  -1.917  1.00 14.39           S  
+ATOM   1503  N   ALA A 192     -21.930 -42.162  -3.098  1.00 10.91           N  
+ATOM   1504  CA  ALA A 192     -23.033 -43.029  -2.622  1.00  9.06           C  
