@@ -31,3 +31,12 @@ defalt folders and what files belong to them (:
 ## List of stuff to ASK from Zoli
 
 * numerical precision ? currently we have a 5.748208131706178e-09 difference when summing up cummulative probabilities. which is 1 order smaller than the average probability.
+
+TODO:
+
+* database building
+* database query
+* next aa structure (gets an aa type and previous/next aa type, and returns a random structure with the help of the distribution draw and database query)
+* structure builder (adds a new aa, with given 3d structure into an existing structure)
+* sequence iterator (iterates over the sequence call the random draw and database query and ther structure builder)
+* collision detector (to be called at the end)

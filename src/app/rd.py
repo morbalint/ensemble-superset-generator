@@ -32,6 +32,7 @@ class RDist:
         return x,y
 
 class RDMeta:
+    """ ramachandran distribibution meta data """
     def __init__(self, phiResolution, psiResolution, isRightNeighboor):
         self.phiResolution = phiResolution
         self.psiResolution = psiResolution
@@ -40,6 +41,7 @@ class RDMeta:
         self.isRightNeighboor = isRightNeighboor
 
 class TDRD:
+    """ Type dependent ramachandran distribution """
     def __init__(self, meta, probabilities):
         self.meta = meta
         self.distributions = {}
@@ -48,6 +50,7 @@ class TDRD:
         pass
 
 class NDRD:
+    """ Neighboor dependent ramachandran distribution """ 
     def __init__(self, meta, probabilities):
         self.meta = meta
         self.distributions = {}
