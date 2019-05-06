@@ -75,6 +75,8 @@ class Diamide:
                 aa = central_aa
             elif right_aa.res_num == seq_num:
                 aa = right_aa
+            else
+                print(seq_num)
             atom = Atom.parse_line(line, aa)
             aa.atoms.append(atom)
         return Diamide(left_aa, central_aa, right_aa)
