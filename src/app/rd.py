@@ -1,8 +1,8 @@
 import json
 import sys
 import numpy as np
-#from src.app.tree_algorithms import ordered_last_search, safe_sum
-from tree_algorithms import ordered_last_search, safe_sum
+from src.app.tree_algorithms import ordered_last_search, safe_sum
+#from tree_algorithms import ordered_last_search, safe_sum
 
 class RDist:
     """discrete 2 dimensional probability distributrion, with extra data precalculated for speed (memory sacrifice)"""

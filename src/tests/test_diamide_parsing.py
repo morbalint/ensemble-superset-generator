@@ -37,5 +37,17 @@ class TestParisng(unittest.TestCase):
         self.assertEqual(len(diamide.central_aa.atoms), 5)
         self.assertEqual(len(diamide.right_aa.atoms), 2)
 
+    def test_file_parsing_ADF_1a7c_A_305(self):
+        diamide = ld.Diamide.parse_file('samples/diamides/ADF-1a7c-A-304_305_306.pdb')
+        self.assertEqual(diamide.pdb_id, '1a7c')
+        self.assertEqual(diamide.chain, 'A')
+        self.assertEqual(diamide.left_aa.aa_type, 'A')
+        self.assertEqual(diamide.central_aa.aa_type, 'D')
+        self.assertEqual(diamide.right_aa.aa_type, 'F')
+        # TODO: test everything. (low prob, high risk)
+        self.assertEqual(len(diamide.left_aa.atoms), 3)
+        self.assertEqual(len(diamide.central_aa.atoms), 8)
+        self.assertEqual(len(diamide.right_aa.atoms), 2)
+
 if __name__ == '__main__':
     unittest.main()

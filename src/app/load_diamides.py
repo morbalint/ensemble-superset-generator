@@ -24,6 +24,7 @@ class Atom:
         )
 
 class AAResidue:
+    """ Amino acid residue (short notation: AA) """
     def __init__(self, pdb_id, res_num, chain, aa_type, phi, psi, sec_structure=None):
         self.pdb_id = pdb_id
         self.chain = chain
@@ -36,7 +37,10 @@ class AAResidue:
     
     @staticmethod
     def parse_line(line):
-        """example line: 'REMARK PDB ID 1c9k residue_number 22 chain A residue_name D phi -88.5 psi 35.0 secondary_structure S'"""
+        """
+        @summary builds an AAResidue instance from a single line of text.
+        example line: 'REMARK PDB ID 1c9k residue_number 22 chain A residue_name D phi -88.5 psi 35.0 secondary_structure S'
+        """
         vals = line.split()
         pdb_id = vals[3]
         res_num = int(vals[5])
@@ -50,6 +54,7 @@ class AAResidue:
         return AAResidue(pdb_id, res_num, chain, res_name, phi, psi, sec_structure)
 
 class Diamide:
+    """A triplet of amino acids with just enough data to calculate dihedral angles of the central amino acid."""
     def __init__(self, left, central, right):
         self.left_aa = left
         self.central_aa = central
@@ -59,15 +64,19 @@ class Diamide:
 
     @staticmethod
     def parse_file(filePath):
+        """
+        Parses a file containing a diamide.
+        Input parameter is the file path.
+        Output is an instance of the diamide class.
+        (File format given by Zita Harmati)"""
         lines = []
         with open(filePath) as f:
             lines = f.readlines()
         left_aa = AAResidue.parse_line(lines[0])
         central_aa = AAResidue.parse_line(lines[1])
         right_aa = AAResidue.parse_line(lines[2])
-        print(type(right_aa))
         for line in lines[3:]:
-            seq_num = int(line[24:27])
+            seq_num = int(line[22:27])
             aa = None
             if left_aa.res_num == seq_num:
                 aa = left_aa
@@ -75,14 +84,20 @@ class Diamide:
                 aa = central_aa
             elif right_aa.res_num == seq_num:
                 aa = right_aa
-            else
-                print(seq_num)
+            else:
+                print('unkown sequence: %i' % seq_num)
             atom = Atom.parse_line(line, aa)
             aa.atoms.append(atom)
         return Diamide(left_aa, central_aa, right_aa)
 
 class DiamidesDb:
+    """A class containg a large data set of diamides 
+    in some internally optimized format (not yet determined, private to outside users)
+    and helper methods to execite simple search queries"""
     def __init__(self, listFile, folder=None):
+        """Instantiate a DiamideDb class with the given list of files. 
+        Actual input parameter: a file path containing line separated diamide files paths
+        """
         self.db = []
         folder = folder or os.path.dirname(listFile)
         with open(listFile) as fl:

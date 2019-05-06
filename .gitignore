@@ -115,3 +115,4 @@ data/
 
 # drone CLI environment (with personal access tokens)
 drone_cli.env.sh
+samples/diamides/list_file\.txt
