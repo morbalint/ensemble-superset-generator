@@ -65,6 +65,7 @@ class Diamide:
         left_aa = AAResidue.parse_line(lines[0])
         central_aa = AAResidue.parse_line(lines[1])
         right_aa = AAResidue.parse_line(lines[2])
+        print(type(right_aa))
         for line in lines[3:]:
             seq_num = int(line[24:27])
             aa = None
@@ -85,4 +86,4 @@ class DiamidesDb:
         with open(listFile) as fl:
             for line in fl:
                 fpath = os.path.join(folder, line)
-                self.db.append(Diamide.parse_file(fpath))
+                self.db.append(Diamide.parse_file(fpath.rstrip()))
