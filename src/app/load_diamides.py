@@ -1,7 +1,7 @@
 import sys
 import os
 import numpy as np
-import rd
+import src.app.rd as rd
 import prody as pd
 
 
@@ -20,8 +20,8 @@ class Atom:
         return Atom(
             int(line[4:12]),
             line[12:17].strip(),
-            float(line[31:39]),
-            float(line[39:47]),
+            float(line[31:38]),
+            float(line[39:46]),
             float(line[47:55]),
             line[77:].strip(),
             aa
@@ -62,7 +62,7 @@ class AAResidue:
         
     def get_angles(self):
         
-        return [self.aa_type,self.phi,self.psi];
+        return [self.aa_type,self.phi,self.psi]
         
     def AA2At_group(self,ID):
         
@@ -75,7 +75,7 @@ class AAResidue:
        for atom in self.atoms:
            
            coordinates.append([atom.x,atom.y,atom.z])
-           atom_types.append(atom.atom_type)
+           atom_types.append(atom.name)
            Resname.append(self.aa_type)
            ResIDs.append(ID)
            
@@ -221,9 +221,9 @@ class Diamide:
 
     def diamide2AtGroup(self,ID):
         
-        group  =  self.left_aa.AA2At_group(ID)
+        group  =  self.left_aa.AA2At_group(ID-1)
         group += self.central_aa.AA2At_group(ID)
-        group += self.right_aa.AA2At_group(ID)
+        group += self.right_aa.AA2At_group(ID+1)
         
         
         return group;
@@ -243,7 +243,5 @@ class DiamidesDb:
         self.db = []
         folder = folder or os.path.dirname(listFile)
         with open(listFile) as fl:
-            for line in fl:
-                fpath = os.path.join(folder, line)
-                #print(line)
-                self.db.append(Diamide.parse_file(fpath.rstrip()))
+            for fpath in [fpath for fpath in [line.rstrip() for line in [os.path.join(folder, line).rstrip() for line in fl]] if len(fpath) > 0 and fpath.endswith('.pdb')]:
+                self.db.append(Diamide.parse_file(fpath))

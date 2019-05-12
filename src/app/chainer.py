@@ -20,7 +20,9 @@ def select_diamid_coords_2B_aligned(diamid):
 def appendDiamid2Chain(chain, nextDiamid, idx):
     last_center = nth_item(chain.iterResidues(), -2)
     last2align = nth_item(chain.iterResidues(), -1)
-    chain_coords_2B_aligned = (last_center.select('name CA C O') + last2align.select('name N CA')).getCoords()
+    last_center_filtered = last_center.select('name CA C O')
+    last2align_filtered = last2align.select('name N CA')
+    chain_coords_2B_aligned = (last_center_filtered + last2align_filtered).getCoords()
     next_prev = nth_item(nextDiamid.iterResidues(), 0).select('name CA C O')
     next_center = nth_item(nextDiamid.iterResidues(), 1)
     next_center.setResnum(idx)
@@ -28,6 +30,15 @@ def appendDiamid2Chain(chain, nextDiamid, idx):
     next_next = nth_item(nextDiamid.iterResidues(), 2)
     next_next.setResnum(idx+1)
     next_coords_2B_aligned = (next_prev + next_center_atoms_2B_aligned).getCoords()
+    if (len(next_coords_2B_aligned) != 5 or len(chain_coords_2B_aligned) != 5):
+        print('insuficent atoms in one of these: ')
+        print('next:')
+        print(next_coords_2B_aligned)
+        print(nextDiamid)
+        print('chain:')
+        print(chain_coords_2B_aligned)
+        raise error('insuficent atoms')
+
     tran = calcTransformation(next_coords_2B_aligned, chain_coords_2B_aligned)
     next_2B_attached = next_center + next_next
     next_aligned = applyTransformation(tran, next_2B_attached)
