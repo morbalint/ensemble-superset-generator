@@ -27,8 +27,15 @@ def get_pwd_jsons():
     return pwd_home+"samples/"; 
     
 if __name__ == '__main__':
-    # we must always write our program between hello world printing to remember where we started from.
+    
     print("hello world!")
+   
+    pwd = os.getcwd()
+    pwd_home = pwd[0:pwd.find("src")]                       #Az a mappa ami tartalmazza a project fileokat
+    pwd_data = "samples/diamides"+pwd[pwd.find("src")-1]    #Az a mappa ami tartalmazza a pdb fileokat.
+    pwd_full_data = pwd_home+pwd_data                       
+    pwd_jsons = pwd_home+"samples/"  
+    pwd_list_data = pwd+'/list_file.txt'                                             
 
     pwd_full_data = get_pwd_full_data()
     create_list_file(pwd_full_data)

@@ -172,12 +172,13 @@ class AAResidue_db:
 class Diamide:
     """A triplet of amino acids with just enough data to calculate dihedral angles of the central amino acid."""
 
-    def __init__(self, left, central, right):
+    def __init__(self, left, central, right,filePath):
         self.left_aa = left
         self.central_aa = central
         self.right_aa = right
         self.pdb_id = central.pdb_id
         self.chain = central.chain
+        self.filePath = filePath
 
 
     def get_DiamideAngles(self):
@@ -198,6 +199,7 @@ class Diamide:
         lines = []
         with open(filePath) as f:
             lines = f.readlines()
+            
         left_aa = AAResidue.parse_line(lines[0])
         central_aa = AAResidue.parse_line(lines[1])
         right_aa = AAResidue.parse_line(lines[2])
@@ -214,7 +216,7 @@ class Diamide:
                 print('unkown sequence: %i' % seq_num)
             atom = Atom.parse_line(line, aa)
             aa.atoms.append(atom)
-        return Diamide(left_aa, central_aa, right_aa)
+        return Diamide(left_aa, central_aa, right_aa, filePath)
 
 
     def diamide2AtGroup(self,ID):
@@ -243,4 +245,5 @@ class DiamidesDb:
         with open(listFile) as fl:
             for line in fl:
                 fpath = os.path.join(folder, line)
+                #print(line)
                 self.db.append(Diamide.parse_file(fpath.rstrip()))

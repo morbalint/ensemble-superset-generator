@@ -1,0 +1,61 @@
+from prody import *
+from pylab import *
+import itertools
+
+def nth_item(iterator, n):
+    return next(itertools.islice(iterator, n, n+1))
+
+if __name__ == '__main__':
+    print('hello')
+    dap = parsePDB('samples/DAP-1c9k-A-22_23_24.pdb')
+    aaa = parsePDB('samples/diamides/AAA-1af7-A-122_123_124.pdb')
+    print('==========================')
+
+    print('1c9k center:')
+    _1c9k_center = nth_item(dap.iterResidues(), 1)
+    _1c9k_center_coords = _1c9k_center.getCoords()[-3:]
+    print(_1c9k_center)
+    print(_1c9k_center_coords)
+    print('1c9k next:')
+    _1c9k_next = nth_item(dap.iterResidues(), 2)
+    _1c9k_next_coords = _1c9k_next.getCoords()
+    print(_1c9k_next)
+    print(_1c9k_next_coords)
+    print('1c9k align:')
+    _1c9k_align = _1c9k_center + _1c9k_next
+    _1c9k_align_coords = _1c9k_align.getCoords()[-5:]
+    print(_1c9k_align)
+    print(_1c9k_align_coords)
+    print('==========================')
+    
+    print('1af7 prev:')
+    _1af7_prev = nth_item(aaa.iterResidues(), 0)
+    _1af7_prev_coords = _1af7_prev.getCoords()
+    print(_1af7_prev)
+    print(_1af7_prev_coords)
+    print('1af7 center:')
+    _1af7_center = nth_item(aaa.iterResidues(), 1)
+    _1af7_center_coords = _1af7_prev.getCoords()[0:2]
+    print(_1af7_center)
+    print(_1af7_center_coords)
+    print('1af7 align:')
+    _1af7_align = _1af7_prev + _1af7_center
+    _1af7_align_coords = _1af7_align.getCoords()[0:5]
+    print(_1af7_align)
+    print(_1af7_align_coords)
+    print('==========================')
+
+    # calulate alignment
+    trans = calcTransformation(_1af7_align_coords, _1c9k_align_coords)
+    print(trans)
+
+    # apply alignment
+    _1af7_center_aligned = applyTransformation(trans, _1af7_center)
+    _1af7_center_aligned_coords = _1af7_center_aligned.getCoords()
+    print('1af7 center aligned:')
+    print(_1af7_center_aligned_coords)
+    print('combined:')
+    newChain = _1c9k_center.copy() + _1af7_center_aligned.copy()
+    print(newChain)
+    print(newChain.getCoords())
+    print('==========================')
