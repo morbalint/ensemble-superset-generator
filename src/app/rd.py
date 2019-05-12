@@ -1,7 +1,7 @@
 import json
 import sys
 import numpy as np
-from src.app.tree_algorithms import ordered_last_search, safe_sum
+from tree_algorithms import ordered_last_search, safe_sum
 #from tree_algorithms import ordered_last_search, safe_sum
 
 class RDist:
@@ -69,6 +69,24 @@ def json_test():
     print('probability matrix len y:' + str(len(x['probability']['ALA']['ALA'][0])))
     print('probability of ALA-ALA 5,5:' + str(x['probability']['ALA']['ALA'][36][35]))
     pass
+
+def get_RD(filename,RDtype = "TDRD" ):
+    
+    if RDtype == "NDRD" :
+        
+        data = json.load(open(filename, 'r', encoding='utf8'))
+        meta = RDMeta(data['phi_resolution'], data['psi_resolution'], data['right_neighboor'])
+        NDRD_R_TCBIG = NDRD(meta, data['probability'])
+        
+        return NDRD_R_TCBIG;
+        
+    elif RDtype == "TDRD" :
+        
+        data = json.load(open(filename))
+        meta = RDMeta(data['phi_resolution'], data['psi_resolution'], data['right_neighboor'])
+        TDRD_R_TCBIG = TDRD(meta, data['probability'])
+        
+        return TDRD_R_TCBIG;
 
 def TDRD_test():
     data = json.load(open('samples/TDRD_R_TCBIG.json'))

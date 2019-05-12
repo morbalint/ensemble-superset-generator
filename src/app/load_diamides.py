@@ -1,5 +1,9 @@
 import sys
 import os
+import numpy as np
+import rd
+import prody as pd
+
 
 class Atom:
     def __init__(self, id, name, x, y, z, atom_type=None, aa=None):
@@ -9,7 +13,7 @@ class Atom:
         self.y = y
         self.z = z
         self.atom_type = atom_type or name[0]
-        self.aa = aa # link to amino acid
+        self.aa = aa  # link to amino acid
 
     @staticmethod
     def parse_line(line, aa=None):
@@ -22,9 +26,11 @@ class Atom:
             line[77:].strip(),
             aa
         )
-
+        
+        
 class AAResidue:
     """ Amino acid residue (short notation: AA) """
+
     def __init__(self, pdb_id, res_num, chain, aa_type, phi, psi, sec_structure=None):
         self.pdb_id = pdb_id
         self.chain = chain
@@ -34,12 +40,12 @@ class AAResidue:
         self.psi = psi
         self.sec_structure = sec_structure
         self.atoms = []
-    
+
     @staticmethod
     def parse_line(line):
         """
-        @summary builds an AAResidue instance from a single line of text.
-        example line: 'REMARK PDB ID 1c9k residue_number 22 chain A residue_name D phi -88.5 psi 35.0 secondary_structure S'
+        @summary builds an AAResidue instance from a single line of text. example line: 'REMARK PDB ID 1c9k
+        residue_number 22 chain A residue_name D phi -88.5 psi 35.0 secondary_structure S'
         """
         vals = line.split()
         pdb_id = vals[3]
@@ -52,15 +58,135 @@ class AAResidue:
         if len(vals) > 15:
             sec_structure = vals[15]
         return AAResidue(pdb_id, res_num, chain, res_name, phi, psi, sec_structure)
+        
+        
+    def get_angles(self):
+        
+        return [self.aa_type,self.phi,self.psi];
+        
+    def AA2At_group(self,ID):
+        
+       group = pd.AtomGroup(self.aa_type)
+       coordinates = []
+       atom_types = []
+       Resname = []
+       ResIDs = []
+       
+       for atom in self.atoms:
+           
+           coordinates.append([atom.x,atom.y,atom.z])
+           atom_types.append(atom.atom_type)
+           Resname.append(self.aa_type)
+           ResIDs.append(ID)
+           
+           
+           
+       group.setCoords(np.asarray(coordinates))
+       group.setNames(atom_types)
+       group.setResnames(Resname)
+       group.setResnums(ResIDs)
+       
+       return group;
+
+
+class AAResidue_db:
+
+    def __init__(self, DiamideDb, resol_num):  
+
+        self.dict = {'A': "ALA", 'C': "CYS", 'D': "ASP", 'E': "GLU", 'F': "PHE",
+                     'G': "GLY", 'H': "HIS", 'I': "ILE", 'K': "LYS", 'L': "LEU",
+                     'M': "MET", 'N': "ASN", 'P': "PRO", 'Q': "GLN", 'R': "ARG",
+                     'S': "SER", 'T': "THR", 'V': "VAL", 'W': "TRP", 'Y': "TYR",
+                     'U': "SEC", 'O': "PYL"}
+
+        self.db = []
+        self.DiamideDb = DiamideDb
+        self.resol_num = resol_num
+        self.bins = np.arange(180, -180 + (-360 / resol_num), -360 / resol_num)
+
+        for aa in DiamideDb.db:  
+
+            Dangles = aa.get_DiamideAngles()
+
+            # for ind in range(3):
+
+            l = Dangles[1]
+            l[1] = self.bins[np.digitize(l[1], self.bins)]
+            l[2] = self.bins[np.digitize(l[2], self.bins)]
+            # Dangles[1] = l
+
+            # self.db = self.db + l
+            self.db.append(l)
+
+    def find_AA(self, neve, phi,
+                psi):  
+
+        counter = 0
+        
+
+        aa = None
+        diamide = None
+
+        for line in self.db:
+
+            if line[0] == neve and line[1] == phi and line[2] == psi:
+
+                diamide = self.DiamideDb.db[counter]
+                aa = diamide.central_aa
+                
+                break
+
+            counter += 1
+
+        return aa,diamide
+
+    def query(self, filename, RDtype, trying_num,ID, aa_type1=None, aa_type2=None):  # Mafa a kompakt lekerdezes.
+
+        aa = None
+        diamide = None
+
+        if aa_type1 != None and aa_type2 == None:
+
+            RD = rd.get_RD(filename, RDtype)
+            daa = RD.distributions[self.dict[aa_type1]]
+
+        elif aa_type1 != None and aa_type2 != None:
+
+            RD = rd.get_RD(filename, RDtype)
+            daa = RD.distributions[aa_type1].distributions[aa_type2]
+
+        for counter in np.arange(trying_num):
+
+            if aa == None:
+
+                [x, y] = daa.draw()
+                print(self.bins[np.digitize(x, self.bins)], self.bins[np.digitize(y, self.bins)])
+                aa,diamide = self.find_AA(aa_type1, self.bins[np.digitize(x, self.bins)], self.bins[np.digitize(y, self.bins)])
+            else:
+
+                return aa,diamide.diamide2AtGroup(ID)
+
+        return aa,diamide
+
 
 class Diamide:
     """A triplet of amino acids with just enough data to calculate dihedral angles of the central amino acid."""
+
     def __init__(self, left, central, right):
         self.left_aa = left
         self.central_aa = central
         self.right_aa = right
         self.pdb_id = central.pdb_id
         self.chain = central.chain
+
+
+    def get_DiamideAngles(self):
+        
+        l = self.left_aa.get_angles()
+        c = self.central_aa.get_angles()
+        r = self.right_aa.get_angles()
+        
+        return [l,c,r];
 
     @staticmethod
     def parse_file(filePath):
@@ -90,10 +216,24 @@ class Diamide:
             aa.atoms.append(atom)
         return Diamide(left_aa, central_aa, right_aa)
 
+
+    def diamide2AtGroup(self,ID):
+        
+        group  =  self.left_aa.AA2At_group(ID)
+        group += self.central_aa.AA2At_group(ID)
+        group += self.right_aa.AA2At_group(ID)
+        
+        
+        return group;
+        
+        
+
+
 class DiamidesDb:
     """A class containg a large data set of diamides 
     in some internally optimized format (not yet determined, private to outside users)
     and helper methods to execite simple search queries"""
+
     def __init__(self, listFile, folder=None):
         """Instantiate a DiamideDb class with the given list of files. 
         Actual input parameter: a file path containing line separated diamide files paths
