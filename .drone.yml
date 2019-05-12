@@ -5,6 +5,7 @@ steps:
 - name: test
   image: python:3
   commands:
+  - pip install --upgrade pip
   - pip install -r requirements.txt
   - python -m pytest
 
