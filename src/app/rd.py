@@ -1,7 +1,7 @@
 import json
 import sys
 import numpy as np
-from tree_algorithms import ordered_last_search, safe_sum
+from src.app.tree_algorithms import ordered_last_search, safe_sum
 #from tree_algorithms import ordered_last_search, safe_sum
 
 class RDist:
