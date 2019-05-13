@@ -64,6 +64,18 @@ class AAResidue:
         
         return [self.aa_type,self.phi,self.psi];
         
+        
+    def check_backbone(self):
+        
+        if len(self.atoms) < 1 :
+            
+            return 0;
+
+        else:
+            return 1;
+        
+
+        
     def AA2At_group(self,ID):
         
        group = pd.AtomGroup(self.aa_type)
@@ -87,6 +99,8 @@ class AAResidue:
        group.setResnums(ResIDs)
        
        return group;
+
+
 
 
 class AAResidue_db:
@@ -168,7 +182,6 @@ class AAResidue_db:
 
         return aa,diamide
 
-
 class Diamide:
     """A triplet of amino acids with just enough data to calculate dihedral angles of the central amino acid."""
 
@@ -219,6 +232,16 @@ class Diamide:
         return Diamide(left_aa, central_aa, right_aa, filePath)
 
 
+    def check_Diamide_backbone(self):
+        
+        if self.left_aa.check_backbone() and self.central_aa.check_backbone() and self.right_aa.check_backbone() :
+            
+            return 1;
+        else:
+            return 0;
+        
+        
+
     def diamide2AtGroup(self,ID):
         
         group  =  self.left_aa.AA2At_group(ID)
@@ -246,4 +269,8 @@ class DiamidesDb:
             for line in fl:
                 fpath = os.path.join(folder, line)
                 #print(line)
-                self.db.append(Diamide.parse_file(fpath.rstrip()))
+                
+                diamide = Diamide.parse_file(fpath.rstrip())
+                if diamide.check_Diamide_backbone():
+                    
+                    self.db.append(Diamide.parse_file(fpath.rstrip()))
