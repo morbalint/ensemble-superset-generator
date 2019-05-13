@@ -10,7 +10,7 @@ def structure_builder(sequence, db, fileName, RDType):
     _, chain = db.query(fileName, RDType, 10, 1, sequence[0])
     for i in range(len(sequence) - 1):
         aa =sequence[i+1]
-        _, diamid = db.query(fileName, RDType, 1, i+2, aa)
+        _, diamid = db.query(fileName, RDType, 10, i+2, aa)
         chain = chainer.appendDiamid2Chain(chain, diamid, i + 2)
     chain = chain.select('not resnum 0')
     chain = chain.select('not resnum ' + str(len(sequence)))

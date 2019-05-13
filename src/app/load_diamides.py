@@ -266,11 +266,7 @@ class DiamidesDb:
         self.db = []
         folder = folder or os.path.dirname(listFile)
         with open(listFile) as fl:
-            for line in fl:
-                fpath = os.path.join(folder, line)
-                #print(line)
-                
-                diamide = Diamide.parse_file(fpath.rstrip())
+            for fpath in [fpath for fpath in [os.path.join(folder, line).rstrip() for line in fl] if fpath.endswith('.pdb')]:
+                diamide = Diamide.parse_file(fpath)
                 if diamide.check_Diamide_backbone():
-                    
-                    self.db.append(Diamide.parse_file(fpath.rstrip()))
+                    self.db.append(Diamide.parse_file(fpath))
