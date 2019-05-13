@@ -7,6 +7,7 @@ steps:
   commands:
   - pip install --upgrade pip
   - pip install -r requirements.txt
+  - pip install -U prody
   - python -m pytest
 
 trigger:
