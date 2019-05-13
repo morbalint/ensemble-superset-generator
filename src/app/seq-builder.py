@@ -17,10 +17,11 @@ def structure_builder(sequence, db, fileName, RDType):
     return chain
 
 if __name__ == '__main__':
-    db = ld.AAResidue_db(ld.DiamidesDb('data/list_of_diamides.txt', 'data/Database-of-diamides-2018-12/'), 5)
     prody.fetchPDB('1d3z')
-    pdb = prody.parsePDB('1d3z.pdb')
-    structure = structure_builder(pdb.getSequence(), db, 'samples/TDRD_R_TCBIG.json', 'TDRD')
+    pdb = prody.parsePDB('1d3z.pdb.gz')
+    sequence = pdb.select('name CA').getSequence()
+    db = ld.AAResidue_db(ld.DiamidesDb('data/list_of_diamides.txt', 'data/Database-of-diamides-2018-12/'), 5)
+    structure = structure_builder(sequence, db, 'samples/TDRD_R_TCBIG.json', 'TDRD')
     prody.writePDB('1d3z_test.pdb', structure)
     print(structure)
     print(structure.getCoords())
