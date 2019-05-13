@@ -25,11 +25,18 @@ def move_diamides_by_center_type(listFilePath, folder, outFolder):
         groupNames = [ grp[0][1]  for grp in groups if len(grp) > 0 and select_center(grp[0]) != None]
         for grp in groupNames:
             os.makedirs(os.path.join(outFolder, grp), exist_ok=True)
+        listFiles = []
         for grp in groups:
             name = select_center(grp[0])
+            listFileName = 'list_of_' + name + '.txt'
+            listFiles.append(listFileName)
+            with open(os.path.join(outFolder, listFileName) , 'w') as f2:
+                f2.writelines(grp)
             folder_2B_placed = os.path.join(outFolder, name)
             for filePath in grp:
                 copy2(os.path.join(folder, filePath), os.path.join(folder_2B_placed, filePath))
+        with open(os.path.join(outFolder, 'list_lists.txt'), 'w') as f3:
+            f3.writelines(listFiles)
     pass
 
 def move_diamides_by_angle(listFile, folder, angle='phi', resolution=5):
