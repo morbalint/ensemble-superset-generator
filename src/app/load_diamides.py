@@ -19,7 +19,7 @@ class Atom:
     def parse_line(line, aa=None):
         return Atom(
             int(line[4:12]),
-            line[12:17].strip(),
+            line[12:16].strip(),
             float(line[31:38]),
             float(line[39:46]),
             float(line[47:55]),
