@@ -33,12 +33,20 @@ def structure_builder(sequence, thedb, isNeighborDependent=False, isRightNeighbo
     return chain
 
 if __name__ == '__main__':
+    prody.confProDy(verbosity='warning')
     prody.fetchPDB('1d3z')
     pdb = prody.parsePDB('1d3z.pdb.gz')
     sequence = pdb.select('name CA').getSequence()
     thedb = db.DB('samples/TDRD_R_TCBIG.json', 'data/diamides', 'samples/NDRD_R_TCBIG_pretty.json')
-    structure = structure_builder(sequence, thedb, True, True)
-    prody.writePDB('1d3z_test_ndrd_out.pdb', structure)
-    print(structure)
-    print(structure.getCoords())
-    #print([aa.getResname() for aa in structure.iterResidues()])
+    N = 10000
+    lenN = str(len(str(N)))
+    buff = 64
+    with open('1d3z_test_ndrd_out.pdb', 'a+') as f:
+        f.write('NUMMDL\t%d\n' % N)
+        for i in range(int(N/buff)):
+            structures = [structure_builder(sequence, thedb, True, True) for k in range(buff)]
+            for k in range(buff):
+                f.write('MODEL\t%d\n' % (i*buff + k))
+                prody.writePDBStream(f, structures[k])
+                f.write('ENDMDL\n')
+                print(('structure {:'+lenN+'d} / {:d} generated').format(i*buff + k, N))
