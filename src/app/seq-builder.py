@@ -40,13 +40,11 @@ if __name__ == '__main__':
     thedb = db.DB('samples/TDRD_R_TCBIG.json', 'data/diamides', 'samples/NDRD_R_TCBIG_pretty.json')
     N = 10000
     lenN = str(len(str(N)))
-    buff = 64
     with open('1d3z_test_ndrd_out.pdb', 'a+') as f:
         f.write('NUMMDL\t%d\n' % N)
-        for i in range(int(N/buff)):
-            structures = [structure_builder(sequence, thedb, True, True) for k in range(buff)]
-            for k in range(buff):
-                f.write('MODEL\t%d\n' % (i*buff + k))
-                prody.writePDBStream(f, structures[k])
-                f.write('ENDMDL\n')
-                print(('structure {:'+lenN+'d} / {:d} generated').format(i*buff + k, N))
+        for i in range(N):
+            structure = structure_builder(sequence, thedb, True, True)
+            f.write('MODEL\t%d\n' % i)
+            prody.writePDBStream(f, structure)
+            f.write('ENDMDL\n')
+            print(('structure {:'+lenN+'d} / {:d} generated').format(i, N))
