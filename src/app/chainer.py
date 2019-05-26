@@ -18,9 +18,11 @@ def appendDiamid2Chain(chain, nextDiamid, idx):
     next_prev = nth_item(nextDiamid.iterResidues(), 0).select('name CA C O')
     next_center = nth_item(nextDiamid.iterResidues(), 1)
     next_center.setResnum(idx)
+    next_center.setChids('A')
     next_center_atoms_2B_aligned = next_center.select('name N CA')
     next_next = nth_item(nextDiamid.iterResidues(), 2)
-    next_next.setResnum(idx+1)
+    next_next.setResnum(idx + 1)
+    next_next.setChids('A')
     next_coords_2B_aligned = (next_prev + next_center_atoms_2B_aligned).getCoords()
     if (len(next_coords_2B_aligned) != 5 or len(chain_coords_2B_aligned) != 5):
         print('insuficent atoms in one of these: ')

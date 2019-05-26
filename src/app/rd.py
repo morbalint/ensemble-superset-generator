@@ -34,12 +34,12 @@ class RDist:
 
 class RDMeta:
     """ ramachandran distribibution meta data """
-    def __init__(self, phiResolution, psiResolution, isRightNeighboor):
+    def __init__(self, phiResolution, psiResolution, isRightNeighbor):
         self.phiResolution = phiResolution
         self.psiResolution = psiResolution
         self.NX = int(360/phiResolution)
         self.NY = int(360/psiResolution)
-        self.isRightNeighboor = isRightNeighboor
+        self.isRightNeighbor = isRightNeighbor
 
 class TDRD:
     """ Type dependent ramachandran distribution """
@@ -51,16 +51,16 @@ class TDRD:
         pass
 
 class NDRD:
-    """ Neighboor dependent ramachandran distribution """ 
+    """ Neighbor dependent ramachandran distribution """ 
     def __init__(self, meta, probabilities):
         self.meta = meta
         self.distributions = {}
         for key, val in probabilities.items():
             self.distributions[key] = TDRD(meta, val)
 
-def get_RD(filename,isNeighboorDependent):
+def get_RD(filename,isNeighborDependent):
     
-    if isNeighboorDependent :
+    if isNeighborDependent :
         data = json.load(open(filename, 'r', encoding='utf8'))
         meta = RDMeta(data['phi_resolution'], data['psi_resolution'], data['right_neighboor'])
         return NDRD(meta, data['probability'])

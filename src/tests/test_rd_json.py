@@ -26,17 +26,17 @@ class TestJsonLoad(unittest.TestCase):
         self.assertGreaterEqual(len(x['probability']), 20, \
             'There should be at least 20 amino acids in the probability matrix')
         self.assertGreaterEqual(len(x['probability']['ALA']), 20, \
-            'There should be at least 2 types of neighbooring amino acids')
+            'There should be at least 2 types of neighboring amino acids')
         aa_num = len(x['probability'])
         for key, val in x['probability'].items():
-            self.assertEqual(len(val),aa_num, 'Neighboor matrix should be square. It is not for '+key)
+            self.assertEqual(len(val),aa_num, 'Neighbor matrix should be square. It is not for '+key)
 
     def test_probability_lengths(self):
         x = self.__setup()
         NX = int(360 / x['phi_resolution'])
         NY = int(360 / x['psi_resolution'])
-        for neighboors in x['probability'].values():
-            for probability_matrix in neighboors.values():
+        for neighbors in x['probability'].values():
+            for probability_matrix in neighbors.values():
                 self.assertEqual(len(probability_matrix), NY)
                 for row in probability_matrix:
                     self.assertEqual(len(row), NX)

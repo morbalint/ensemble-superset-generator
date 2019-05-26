@@ -11,21 +11,18 @@ aa_map = {  'A': "ALA", 'C': "CYS", 'D': "ASP", 'E': "GLU", 'F': "PHE",
             'U': "SEC", 'O': "PYL"  }
 
 class DB:
-    def __init__(self, rdFilePath, isNeighboorDependent, dataFolder):
-        self.isNeighboorDependent = isNeighboorDependent
-        self.rd = rd.get_RD(rdFilePath, isNeighboorDependent)
+    def __init__(self, tdrdPath, dataFolder, ndrdPath=None):
+        self.tdrd = rd.get_RD(tdrdPath, False)
         self.dataFolder = dataFolder
-
-    def query(self, aaType, neighboorType=None, maxTries = 100):
-        dist = None
-        aa = aa_map[aaType]
-        if (self.isNeighboorDependent):
-            if(neighboorType == None):
-                raise Exception('neighboor aa type missing')
-            else:
-                dist = self.rd.distributions[aa].distributions[aa_map[neighboorType]]
+        if (ndrdPath != None):
+            self.isNeighborDependent = True
+            self.ndrd = rd.get_RD(ndrdPath, True)
         else:
-            dist = self.rd.distributions[aa]
+            self.isNeighborDependent = False
+
+
+    def query(self, aaType, neighborType=None, maxTries = 100):
+        dist = self._get_rd(aaType, neighborType)
         options = []
         counter = 0
         phi = 0
@@ -40,3 +37,10 @@ class DB:
         selectedIdx = np.random.randint(0, len(options))
         selectedPath = os.path.join(self.dataFolder, aaType, str(phi), str(psi), options[selectedIdx].strip())
         return prody.parsePDB(selectedPath)
+
+    def _get_rd(self, aaType, neighborType=None):
+        aa = aa_map[aaType]
+        if (self.isNeighborDependent and neighborType != None):
+            return self.ndrd.distributions[aa].distributions[aa_map[neighborType]]
+        else:
+            return self.tdrd.distributions[aa]
