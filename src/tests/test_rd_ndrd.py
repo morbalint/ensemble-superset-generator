@@ -21,8 +21,8 @@ class TestRDMeta(unittest.TestCase):
             'NX should be exactly 360°/5.0° = 72 (full circle / phi resolution)')
         self.assertEqual(meta.NY, 72,
             'NY should be exaclty 360°/5.0° = 72 (full circle / psi resolution)')
-        self.assertIsInstance(meta.isRightNeighboor, bool,
-            'neighboor type should be binary')
+        self.assertIsInstance(meta.isRightNeighbor, bool,
+            'neighbor type should be boolean')
 
 class TestRDist(unittest.TestCase):
     def __setup(self):

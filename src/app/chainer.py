@@ -9,14 +9,6 @@ def nth_item(iterator, n):
         # n = len(iterator) + n
     return next(itertools.islice(iterator, n, n + 1))
 
-def select_chain_coords_2B_aligned(chain):
-    last_center = nth_item(chain.iterResidues(), -2)
-    last2align = nth_item(chain.iterResidues(), -1)
-    return (last_center.select('name CA C O') + last2align.select('name N CA')).getCoords()
-
-def select_diamid_coords_2B_aligned(diamid):
-    return 1
-
 def appendDiamid2Chain(chain, nextDiamid, idx):
     last_center = nth_item(chain.iterResidues(), -2)
     last2align = nth_item(chain.iterResidues(), -1)
@@ -26,9 +18,11 @@ def appendDiamid2Chain(chain, nextDiamid, idx):
     next_prev = nth_item(nextDiamid.iterResidues(), 0).select('name CA C O')
     next_center = nth_item(nextDiamid.iterResidues(), 1)
     next_center.setResnum(idx)
+    next_center.setChids('A')
     next_center_atoms_2B_aligned = next_center.select('name N CA')
     next_next = nth_item(nextDiamid.iterResidues(), 2)
-    next_next.setResnum(idx+1)
+    next_next.setResnum(idx + 1)
+    next_next.setChids('A')
     next_coords_2B_aligned = (next_prev + next_center_atoms_2B_aligned).getCoords()
     if (len(next_coords_2B_aligned) != 5 or len(chain_coords_2B_aligned) != 5):
         print('insuficent atoms in one of these: ')
@@ -37,7 +31,7 @@ def appendDiamid2Chain(chain, nextDiamid, idx):
         print(nextDiamid)
         print('chain:')
         print(chain_coords_2B_aligned)
-        raise error('insuficent atoms')
+        raise Exception('insuficent atoms')
 
     tran = calcTransformation(next_coords_2B_aligned, chain_coords_2B_aligned)
     next_2B_attached = next_center + next_next
@@ -45,6 +39,7 @@ def appendDiamid2Chain(chain, nextDiamid, idx):
     chain_without_last = chain.select('not resnum ' + str(last2align.getResnum())).copy()
     return chain_without_last + next_aligned.copy()
 
+# TODO: create unit tests and move code from this function there.
 def run_simple_experiment():
     print('hello')
     dap = parsePDB('samples/DAP-1c9k-A-22_23_24.pdb')
