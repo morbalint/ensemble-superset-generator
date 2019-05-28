@@ -35,7 +35,7 @@ def move_diamides_by_center_type(listFilePath, folder, outFolder):
             folder_2B_placed = os.path.join(outFolder, name)
             for filePath in grp:
                 copy2(os.path.join(folder, filePath), os.path.join(folder_2B_placed, filePath))
-            print('moved with: ' + name)
+            print('copied : ' + name)
         with open(os.path.join(outFolder, 'list_lists.txt'), 'w') as f3:
             f3.writelines(listFiles)
     pass
@@ -84,6 +84,9 @@ def move_all_diamides_by_angle(list_of_lists, folder, resolution=5):
 
 if __name__ == "__main__":
     #print(select_center('DAP-1c9k-A-22_23_24.pdb'))
-    move_diamides_by_center_type('data/list_of_diamides.txt', 'data/Database-of-diamides-2018-12', 'data/diamides')
-    move_all_diamides_by_angle('data/diamides/list_lists.txt', 'data/diamides')
+    listFileName = sys.argv[1] if len(sys.argv) > 1 else 'data/list_of_diamides.txt'
+    dbFolder = sys.argv[2] if len(sys.argv) > 2 else 'data/Database-of-diamides-2018-12'
+    outputFolder = sys.argv[3] if len(sys.argv) > 3 else 'data/diamides'
+    move_diamides_by_center_type(listFileName, dbFolder, outputFolder)
+    move_all_diamides_by_angle(os.path.join(outputFolder, 'list_lists.txt'), outputFolder)
     print('hello world')
